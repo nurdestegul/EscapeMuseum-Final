@@ -1,0 +1,1737 @@
+# compiler: R8
+# compiler_version: 1.4.77
+# min_api: 19
+com.google.common.logging.nano.Vr$VREvent -> com.google.common.logging.nano.Vr$VREvent:
+    com.google.common.logging.nano.Vr$VREvent$Launcher launcher -> q
+    com.google.common.logging.nano.Vr$VREvent$JumpInspector jumpInspector -> z
+    com.google.common.logging.nano.Vr$VREvent$Keyboard keyboard -> r
+    com.google.common.logging.nano.Vr$VREvent$StreetView streetView -> u
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator vr180Creator -> G
+    com.google.common.logging.nano.Vr$VREvent$Lullaby lullaby -> t
+    com.google.common.logging.nano.Vr$VREvent$Application application -> d
+    java.lang.Integer eventSource -> a
+    java.lang.Long durationMs -> e
+    com.google.common.logging.nano.Vr$VREvent$PerformanceStats performanceStats -> k
+    com.google.common.logging.nano.Vr$VREvent$QrCodeScan qrCodeScan -> h
+    com.google.common.logging.nano.Vr$VREvent$HeadTracking headTracking -> D
+    com.google.common.logging.nano.Vr$VREvent$Photos photos -> v
+    com.google.common.logging.nano.Vr$VREvent$GConfigUpdate gConfigUpdate -> y
+    com.google.common.logging.nano.Vr$VREvent$LoggingOptInState loggingOptInState -> b
+    com.google.common.logging.nano.Vr$VREvent$Renderer renderer -> s
+    com.google.common.logging.nano.Vr$VREvent$StandaloneHeadset standaloneHeadset -> E
+    com.google.common.logging.nano.Vr$VREvent$VrCore vrCore -> o
+    java.lang.String cohort -> i
+    com.google.common.logging.nano.Vr$VREvent$Application[] installedVrApplications -> f
+    java.lang.Integer lifetimeCountBucket -> j
+    com.google.common.logging.nano.Vr$VREvent$SdkConfigurationParams sdkConfiguration -> x
+    com.google.common.logging.nano.Vr$VREvent$Expeditions expeditions -> C
+    com.google.common.logging.nano.Vr$VREvent$VrHome vrHome -> w
+    com.google.common.logging.nano.Vr$VREvent$EmbedVrWidget embedVrWidget -> n
+    com.google.common.logging.nano.Vr$VREvent$Eva eva -> F
+    com.google.common.logging.nano.Vr$VREvent$VrStreaming vrStreaming -> B
+    com.google.common.logging.nano.VrBaseOuterClass$VrBase$HeadMount headMount -> c
+    com.google.common.logging.nano.Vr$VREvent$Cyclops cyclops -> g
+    com.google.common.logging.nano.Vr$VREvent$EarthVr earthVr -> p
+    com.google.common.logging.nano.Vr$VREvent$SensorStats sensorStats -> l
+    com.google.common.logging.nano.Vr$VREvent$PhoneAlignment phoneAlignment -> A
+    com.google.common.logging.nano.Vr$VREvent$AudioStats audioStats -> m
+    int checkBucketOrThrow(int) -> a
+    com.google.common.logging.nano.Vr$VREvent parseFrom(byte[]) -> a
+    int checkEventSourceOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$Application -> com.google.common.logging.nano.Vr$VREvent$a:
+    com.google.common.logging.nano.Vr$VREvent$Application[] _emptyArray -> a
+    java.lang.String name -> c
+    java.lang.String packageName -> b
+    java.lang.String version -> d
+com.google.common.logging.nano.Vr$VREvent$AudioStats -> com.google.common.logging.nano.Vr$VREvent$b:
+    java.lang.Integer framesPerBuffer -> c
+    com.google.common.logging.nano.Vr$VREvent$HistogramBucket[] renderingTimePerBufferMilliseconds -> d
+    com.google.common.logging.nano.Vr$VREvent$HistogramBucket[] numberOfSimultaneousSoundFields -> f
+    com.google.common.logging.nano.Vr$VREvent$HistogramBucket[] numberOfSimultaneousSoundObjects -> e
+    com.google.common.logging.nano.Vr$VREvent$HistogramBucket[] cpuMeasurementsPercent -> g
+    java.lang.Integer renderingMode -> a
+    java.lang.Integer sampleRate -> b
+    int checkRenderingModeOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Cyclops -> com.google.common.logging.nano.Vr$VREvent$c:
+    com.google.common.logging.nano.Vr$VREvent$Cyclops$Share share -> c
+    com.google.common.logging.nano.Vr$VREvent$Cyclops$ShareStart shareStart -> d
+    com.google.common.logging.nano.Vr$VREvent$Cyclops$Capture capture -> a
+    com.google.common.logging.nano.Vr$VREvent$Cyclops$View view -> b
+com.google.common.logging.nano.Vr$VREvent$Cyclops$Capture -> com.google.common.logging.nano.Vr$VREvent$c$a:
+    java.lang.Boolean withSound -> c
+    java.lang.Long processingTimeMs -> g
+    java.lang.Boolean captureWarnings -> d
+    java.lang.Integer outcome -> a
+    java.lang.Long compositionTimeMs -> e
+    java.lang.Float angleDegrees -> b
+    java.lang.Long captureTimeMs -> f
+    int checkOutcomeOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Cyclops$Share -> com.google.common.logging.nano.Vr$VREvent$c$b:
+    java.lang.Integer numPhotos -> c
+    com.google.common.logging.Vr$VREvent$Cyclops$Share$Type type -> a
+    java.lang.Boolean withSound -> b
+com.google.common.logging.nano.Vr$VREvent$Cyclops$ShareStart -> com.google.common.logging.nano.Vr$VREvent$c$c:
+    java.lang.Integer originScreen -> a
+    java.lang.Integer numPhotos -> b
+    int checkOriginScreenOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Cyclops$View -> com.google.common.logging.nano.Vr$VREvent$c$d:
+    java.lang.Integer numPanos -> d
+    java.lang.Boolean withSound -> c
+    java.lang.Integer orientation -> a
+    java.lang.Boolean interaction -> b
+    int checkOrientationOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$DoublePrecisionTransform -> com.google.common.logging.nano.Vr$VREvent$d:
+    java.lang.Double rotationQy -> e
+    java.lang.Double rotationQx -> d
+    java.lang.Double translationZ -> c
+    java.lang.Double translationY -> b
+    java.lang.Double translationX -> a
+    java.lang.Double scale -> g
+    java.lang.Double rotationQz -> f
+com.google.common.logging.nano.Vr$VREvent$EarthVr -> com.google.common.logging.nano.Vr$VREvent$e:
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$Environment environment -> l
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$AppState appState -> d
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$Actor[] actors -> k
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$View view -> e
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$ActionOrb actionOrb -> o
+    com.google.common.logging.nano.Vr$VREvent$Transform startFromHeadTransform -> b
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$Tutorial tutorial -> j
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$SplashScreen splashScreen -> m
+    com.google.common.logging.nano.Vr$VREvent$DoublePrecisionTransform startFromKeyholeTransform -> a
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$ControllerState[] controllerStates -> c
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$Preferences preferencesDelta -> h
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$Preferences preferences -> g
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$StreetView streetView -> n
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$Menu menu -> f
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$Search search -> p
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$Tour tour -> i
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$VrSdkError[] errors -> q
+com.google.common.logging.nano.Vr$VREvent$EarthVr$ActionOrb -> com.google.common.logging.nano.Vr$VREvent$e$a:
+    java.lang.Integer previousExpansionState -> c
+    java.lang.Integer previousDisplayMode -> d
+    java.lang.Integer expansionState -> a
+    java.lang.Integer displayMode -> b
+    int checkDisplayModeOrThrow(int) -> a
+    int checkExpansionStateOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$EarthVr$Actor -> com.google.common.logging.nano.Vr$VREvent$e$b:
+    java.lang.Integer vrSdk -> d
+    java.lang.Integer vrSystemType -> e
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$Actor[] _emptyArray -> a
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$Actor$ControllerState[] controllerStates -> c
+    com.google.common.logging.nano.Vr$VREvent$Transform startFromHeadTransform -> b
+    int checkVrSdkOrThrow(int) -> a
+    int checkVrSystemTypeOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$EarthVr$Actor$ControllerState -> com.google.common.logging.nano.Vr$VREvent$e$b$a:
+    java.lang.Integer type -> d
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$Actor$ControllerState[] _emptyArray -> a
+    com.google.common.logging.nano.Vr$VREvent$Transform startFromControllerTransform -> c
+    java.lang.Integer role -> b
+    int checkRoleOrThrow(int) -> a
+    int checkTypeOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$EarthVr$AppState -> com.google.common.logging.nano.Vr$VREvent$e$c:
+    java.lang.Long appModeId -> a
+com.google.common.logging.nano.Vr$VREvent$EarthVr$ControllerState -> com.google.common.logging.nano.Vr$VREvent$e$d:
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$ControllerState[] _emptyArray -> a
+    com.google.common.logging.nano.Vr$VREvent$Transform startFromControllerTransform -> c
+    java.lang.Integer role -> b
+    int checkRoleOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$EarthVr$Environment -> com.google.common.logging.nano.Vr$VREvent$e$e:
+    com.google.common.logging.nano.Vr$VREvent$Transform startFromEnvironmentTransform -> a
+com.google.common.logging.nano.Vr$VREvent$EarthVr$GeoLocation -> com.google.common.logging.nano.Vr$VREvent$e$f:
+    java.lang.Double altitudeMeters -> c
+    java.lang.Double longitudeDegrees -> b
+    java.lang.Double latitudeDegrees -> a
+com.google.common.logging.nano.Vr$VREvent$EarthVr$Menu -> com.google.common.logging.nano.Vr$VREvent$e$g:
+    java.lang.String categoryName -> a
+    java.lang.String contentKey -> c
+    java.lang.Integer pageIndex -> b
+    java.lang.String contentName -> d
+com.google.common.logging.nano.Vr$VREvent$EarthVr$Preferences -> com.google.common.logging.nano.Vr$VREvent$e$h:
+    java.lang.Integer startConfiguration -> c
+    java.lang.Integer guestMode -> d
+    java.lang.Integer humanScaleMode -> e
+    java.lang.Integer labelsState -> a
+    java.lang.Integer comfortModeState -> b
+    int checkComfortModeStateOrThrow(int) -> a
+    int checkGuestModeOrThrow(int) -> b
+    int checkHumanScaleModeOrThrow(int) -> c
+    int checkLabelsStateOrThrow(int) -> d
+    int checkStartConfigurationOrThrow(int) -> e
+com.google.common.logging.nano.Vr$VREvent$EarthVr$Search -> com.google.common.logging.nano.Vr$VREvent$e$i:
+    java.lang.Integer selectedEntityIndex -> c
+    java.lang.String typedQuery -> a
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$View selectedEntityView -> d
+    java.lang.String searchQuery -> b
+com.google.common.logging.nano.Vr$VREvent$EarthVr$SplashScreen -> com.google.common.logging.nano.Vr$VREvent$e$j:
+    java.lang.Long numberOfViewPreloadsSucceeded -> c
+    java.lang.Long viewPreloadDurationMs -> d
+    java.lang.Long numberOfViewPreloadsAttempted -> b
+    java.lang.Integer exitType -> a
+    int checkExitTypeOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$EarthVr$StreetView -> com.google.common.logging.nano.Vr$VREvent$e$k:
+    java.lang.Boolean hasUserDiscoveredNeighbor -> h
+    java.lang.Integer panoType -> e
+    java.lang.Integer panoFrontend -> f
+    java.lang.Integer panoNeighborCount -> g
+    java.lang.String panoId -> c
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$GeoLocation panoLocation -> d
+    java.lang.Integer state -> a
+    java.lang.Integer previousState -> b
+    int checkPanoFrontendOrThrow(int) -> a
+    int checkPanoTypeOrThrow(int) -> b
+    int checkStateOrThrow(int) -> c
+com.google.common.logging.nano.Vr$VREvent$EarthVr$Tour -> com.google.common.logging.nano.Vr$VREvent$e$l:
+    java.lang.String name -> a
+    java.lang.Long playbackMs -> b
+com.google.common.logging.nano.Vr$VREvent$EarthVr$Tutorial -> com.google.common.logging.nano.Vr$VREvent$e$m:
+    java.lang.String stageName -> b
+    java.lang.Integer stage -> a
+com.google.common.logging.nano.Vr$VREvent$EarthVr$View -> com.google.common.logging.nano.Vr$VREvent$e$n:
+    java.lang.Double logicalViewerScale -> e
+    java.lang.Integer forceHumanScale -> d
+    com.google.common.logging.nano.Vr$VREvent$DoublePrecisionTransform startFromKeyholeTransform -> b
+    java.lang.Long simulationSecondsSinceEpoch -> c
+    java.lang.Integer mode -> a
+    int checkForceHumanScaleOrThrow(int) -> a
+    int checkModeOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$EarthVr$VrSdkError -> com.google.common.logging.nano.Vr$VREvent$e$o:
+    java.lang.Integer sdkErrorCode -> c
+    com.google.common.logging.nano.Vr$VREvent$EarthVr$VrSdkError[] _emptyArray -> a
+    java.lang.Integer shutdownReason -> b
+    java.lang.String sdkFunction -> d
+    int checkShutdownReasonOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$EmbedVrWidget -> com.google.common.logging.nano.Vr$VREvent$f:
+    com.google.common.logging.nano.Vr$VREvent$EmbedVrWidget$Video video -> c
+    com.google.common.logging.nano.Vr$VREvent$EmbedVrWidget$Pano pano -> b
+    java.lang.Integer viewMode -> a
+    java.lang.String errorMsg -> d
+    int checkStereoFormatOrThrow(int) -> a
+    int checkViewModeOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$EmbedVrWidget$Pano -> com.google.common.logging.nano.Vr$VREvent$f$a:
+    java.lang.Integer stereoFormat -> c
+    java.lang.Integer widthPixels -> a
+    java.lang.Integer heightPixels -> b
+com.google.common.logging.nano.Vr$VREvent$EmbedVrWidget$Video -> com.google.common.logging.nano.Vr$VREvent$f$b:
+    java.lang.Integer stereoFormat -> c
+    java.lang.Integer videoDurationMs -> d
+    java.lang.Integer widthPixels -> a
+    java.lang.Integer heightPixels -> b
+com.google.common.logging.nano.Vr$VREvent$Eva -> com.google.common.logging.nano.Vr$VREvent$g:
+    com.google.common.logging.nano.Vr$VREvent$Eva$View view -> e
+    com.google.common.logging.nano.Vr$VREvent$Eva$CameraStatus cameraStatus -> f
+    com.google.common.logging.nano.Vr$VREvent$Eva$WigglegramGeneration wigglegramGeneration -> l
+    com.google.common.logging.nano.Vr$VREvent$Eva$FileTransfer fileTransfer -> d
+    com.google.common.logging.nano.Vr$VREvent$Eva$BluetoothSession bluetoothSession -> g
+    com.google.common.logging.nano.Vr$VREvent$Eva$Capture capture -> b
+    com.google.common.logging.nano.Vr$VREvent$Eva$WifiSetupSession wifiSetupSession -> h
+    com.google.common.logging.nano.Vr$VREvent$Eva$CameraInfo cameraType -> a
+    com.google.common.logging.nano.Vr$VREvent$Eva$Delete delete -> j
+    com.google.common.logging.nano.Vr$VREvent$Eva$CameraFirmwareUpdate cameraFirmwareUpdate -> n
+    com.google.common.logging.nano.Vr$VREvent$Eva$SelectionAction selectionAction -> o
+    com.google.common.logging.nano.Vr$VREvent$Eva$Pairing pairing -> c
+    com.google.common.logging.nano.Vr$VREvent$Eva$LocalGalleryStats localGalleryStats -> k
+    com.google.common.logging.nano.Vr$VREvent$Eva$Share share -> i
+    com.google.common.logging.nano.Vr$VREvent$Eva$ExportMedia exportMedia -> m
+com.google.common.logging.nano.Vr$VREvent$Eva$BluetoothSession -> com.google.common.logging.nano.Vr$VREvent$g$a:
+    java.lang.Integer statusUpdateNotificationCount -> f
+    java.lang.Long totalLatencyMs -> c
+    java.lang.Long sentBytes -> d
+    java.lang.Integer requestCount -> a
+    java.lang.Long receivedBytes -> e
+    java.lang.Integer failedRequestCount -> b
+com.google.common.logging.nano.Vr$VREvent$Eva$CameraFirmwareUpdate -> com.google.common.logging.nano.Vr$VREvent$g$b:
+    com.google.common.logging.Vr$VREvent$Eva$CameraFirmwareUpdate$UpdateOutcome outcome -> a
+com.google.common.logging.nano.Vr$VREvent$Eva$CameraInfo -> com.google.common.logging.nano.Vr$VREvent$g$c:
+    java.lang.String manufacturerName -> c
+    java.lang.String firmwareVersion -> b
+    java.lang.Integer cameraType -> a
+    int checkCameraTypeOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Eva$CameraStatus -> com.google.common.logging.nano.Vr$VREvent$g$d:
+    java.lang.Boolean connectedToWifi -> g
+    java.lang.Integer deviceTemperature -> d
+    java.lang.Boolean phoneToCameraWifi -> h
+    java.lang.Integer temperatureState -> i
+    java.lang.Integer mediaCount -> j
+    java.lang.Boolean batteryCharging -> c
+    java.lang.Boolean recording -> a
+    java.lang.Long totalStorage -> e
+    java.lang.Integer batteryPercentage -> b
+    java.lang.Long freeStorage -> f
+    int checkTemperatureStateOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Eva$Capture -> com.google.common.logging.nano.Vr$VREvent$g$e:
+    com.google.common.logging.nano.Vr$VREvent$Eva$Capture$LiveStreamStats liveStreamStats -> d
+    com.google.common.logging.nano.Vr$VREvent$Eva$VideoInfo videoInfo -> c
+    com.google.common.logging.nano.Vr$VREvent$Eva$Resolution resolution -> b
+    java.lang.Integer captureType -> a
+    int checkCaptureTypeOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Eva$Capture$LiveStreamStats -> com.google.common.logging.nano.Vr$VREvent$g$e$a:
+    java.lang.Long averageSourceBitrate -> c
+    java.lang.Long averageTargetBitrate -> d
+    java.lang.Long averageUploadBitrate -> b
+    java.lang.Integer errorState -> a
+    int checkLiveStreamErrorOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Eva$Delete -> com.google.common.logging.nano.Vr$VREvent$g$f:
+    com.google.common.logging.Vr$VREvent$Eva$View$ViewSource source -> b
+    java.lang.Long sizeBytes -> c
+    com.google.common.logging.Vr$VREvent$Eva$View$MediaType mediaType -> a
+com.google.common.logging.nano.Vr$VREvent$Eva$ExportMedia -> com.google.common.logging.nano.Vr$VREvent$g$g:
+    java.lang.Integer exportMediaFailureType -> c
+    com.google.common.logging.Vr$VREvent$Eva$ExportMedia$Type exportMediaType -> a
+    java.lang.Integer exportMediaAction -> b
+    int checkActionOrThrow(int) -> a
+    int checkFailureTypeOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$Eva$FileTransfer -> com.google.common.logging.nano.Vr$VREvent$g$h:
+    com.google.common.logging.nano.Vr$VREvent$Eva$VideoInfo videoInfo -> g
+    com.google.common.logging.Vr$VREvent$Eva$FileTransfer$Outcome outcome -> a
+    com.google.common.logging.Vr$VREvent$Eva$FileTransfer$TransferInterface transferInterface -> b
+    java.lang.Long fileSize -> c
+    java.lang.Long transferTimeMs -> d
+    com.google.common.logging.nano.Vr$VREvent$Eva$Resolution resolution -> f
+    com.google.common.logging.Vr$VREvent$Eva$FileTransfer$FileType fileType -> e
+com.google.common.logging.nano.Vr$VREvent$Eva$LocalGalleryStats -> com.google.common.logging.nano.Vr$VREvent$g$i:
+    java.lang.Long mediaBytes -> c
+    java.lang.Long availableBytes -> b
+    java.lang.Integer mediaCount -> a
+com.google.common.logging.nano.Vr$VREvent$Eva$Pairing -> com.google.common.logging.nano.Vr$VREvent$g$j:
+    java.lang.Long bluetoothPairingTimeMs -> c
+    com.google.common.logging.Vr$VREvent$Eva$Pairing$Outcome outcome -> a
+    java.lang.Long pairingFlowTimeMs -> b
+com.google.common.logging.nano.Vr$VREvent$Eva$Resolution -> com.google.common.logging.nano.Vr$VREvent$g$k:
+    java.lang.Integer width -> a
+    java.lang.Integer height -> b
+com.google.common.logging.nano.Vr$VREvent$Eva$SelectionAction -> com.google.common.logging.nano.Vr$VREvent$g$l:
+    java.lang.Long durationMs -> c
+    com.google.common.logging.Vr$VREvent$Eva$SelectionAction$ActionOutcome outcome -> a
+    com.google.common.logging.Vr$VREvent$Eva$SelectionAction$ActionEntryPoint entryPoint -> b
+com.google.common.logging.nano.Vr$VREvent$Eva$Share -> com.google.common.logging.nano.Vr$VREvent$g$m:
+    com.google.common.logging.nano.Vr$VREvent$Eva$VideoInfo videoInfo -> d
+    java.lang.Integer shareType -> a
+    java.lang.Integer shareApp -> b
+    com.google.common.logging.nano.Vr$VREvent$Eva$Resolution resolution -> c
+    int checkShareAppOrThrow(int) -> a
+    int checkShareTypeOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$Eva$VideoInfo -> com.google.common.logging.nano.Vr$VREvent$g$n:
+    java.lang.Long durationMs -> a
+    java.lang.Integer codec -> b
+    int checkCodecOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Eva$View -> com.google.common.logging.nano.Vr$VREvent$g$o:
+    com.google.common.logging.Vr$VREvent$Eva$View$TriggerAction triggerAction -> h
+    java.lang.Integer viewerHeadingRotation -> f
+    java.lang.Integer mediaHeadingRotation -> g
+    com.google.common.logging.Vr$VREvent$Eva$View$ViewSource viewSource -> e
+    java.lang.Long viewingDurationMs -> c
+    java.lang.Long loadingTimeMs -> d
+    com.google.common.logging.Vr$VREvent$Eva$View$ViewType viewType -> b
+    com.google.common.logging.Vr$VREvent$Eva$View$MediaType mediaType -> a
+com.google.common.logging.nano.Vr$VREvent$Eva$WifiSetupSession -> com.google.common.logging.nano.Vr$VREvent$g$p:
+    java.lang.Integer connectivityCheckFailCount -> e
+    java.lang.Integer connectionAttemptType -> f
+    java.lang.Integer managedConnectionFailCount -> g
+    java.lang.Integer managedConnectionApiErrorCount -> h
+    java.lang.Long hotspotStartTimeMs -> c
+    java.lang.Long joinTimeMs -> d
+    java.lang.Long setupTimeMs -> b
+    java.lang.Integer connectionType -> a
+    int checkWifiConnectionAttemptTypeOrThrow(int) -> a
+    int checkWifiConnectionTypeOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$Eva$WigglegramGeneration -> com.google.common.logging.nano.Vr$VREvent$g$q:
+    com.google.common.logging.Vr$VREvent$Eva$WigglegramGeneration$Status generationStatus -> a
+    java.lang.Long renderAndEncodeMs -> c
+    java.lang.Long correspondenceMs -> b
+com.google.common.logging.nano.Vr$VREvent$Expeditions -> com.google.common.logging.nano.Vr$VREvent$h:
+    java.lang.String contentId -> a
+com.google.common.logging.nano.Vr$VREvent$GConfigUpdate -> com.google.common.logging.nano.Vr$VREvent$i:
+    com.google.common.logging.nano.Vr$VREvent$GConfigUpdate$GConfigValue[] gConfigValue -> a
+com.google.common.logging.nano.Vr$VREvent$GConfigUpdate$GConfigValue -> com.google.common.logging.nano.Vr$VREvent$i$a:
+    com.google.common.logging.nano.Vr$VREvent$GConfigUpdate$GConfigValue[] _emptyArray -> a
+    java.lang.String stringValue -> c
+    java.lang.String gConfigKey -> b
+com.google.common.logging.nano.Vr$VREvent$HeadTracking -> com.google.common.logging.nano.Vr$VREvent$j:
+    com.google.common.logging.nano.Vr$VREvent$HeadTracking$PeriodicReport periodicReport -> f
+    java.lang.Long sixDofFallbackTimestamp -> c
+    java.lang.Float floorHeight -> d
+    java.lang.Long headTrackingTimestamp -> e
+    com.google.common.logging.nano.Vr$VREvent$HeadTracking$SafetyCylinderConfig safetyCylinderConfig -> g
+    int oneof_safety_config_ -> a
+    java.lang.Integer sixDofFallbackReason -> b
+    int checkFallBackReasonOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$HeadTracking$PeriodicReport -> com.google.common.logging.nano.Vr$VREvent$j$a:
+    com.google.common.logging.nano.Vr$VREvent$HeadTracking$PeriodicReport$SafeRegionEvent[] safeRegionEvent -> d
+    java.lang.Long startTimestampMs -> a
+    java.lang.Long endTimestampMs -> b
+    com.google.common.logging.nano.Vr$VREvent$HeadTracking$PeriodicReport$RecenterEvent[] recenterEvent -> c
+com.google.common.logging.nano.Vr$VREvent$HeadTracking$PeriodicReport$RecenterEvent -> com.google.common.logging.nano.Vr$VREvent$j$a$a:
+    java.lang.Integer type -> c
+    com.google.common.logging.nano.Vr$VREvent$HeadTracking$PeriodicReport$RecenterEvent[] _emptyArray -> a
+    java.lang.Long timestampMs -> b
+com.google.common.logging.nano.Vr$VREvent$HeadTracking$PeriodicReport$SafeRegionEvent -> com.google.common.logging.nano.Vr$VREvent$j$a$b:
+    com.google.common.logging.nano.Vr$VREvent$HeadTracking$PeriodicReport$SafeRegionEvent[] _emptyArray -> a
+    float[] hrsQuat -> e
+    java.lang.Long timestampMs -> b
+    float[] hrsPosition -> d
+    java.lang.Boolean entered -> c
+com.google.common.logging.nano.Vr$VREvent$HeadTracking$SafetyCylinderConfig -> com.google.common.logging.nano.Vr$VREvent$j$b:
+    float[] outerFogColor -> e
+    java.lang.Float exitEventRadius -> g
+    java.lang.Float anchorWarningDistance -> h
+    float[] innerFogColor -> d
+    java.lang.Float enterEventRadius -> f
+    java.lang.Float collisionSphereRadius -> c
+    java.lang.Float innerRadius -> a
+    java.lang.Float outerRadius -> b
+com.google.common.logging.nano.Vr$VREvent$HistogramBucket -> com.google.common.logging.nano.Vr$VREvent$k:
+    java.lang.Integer count -> c
+    com.google.common.logging.nano.Vr$VREvent$HistogramBucket[] _emptyArray -> a
+    java.lang.Integer minimumValue -> b
+com.google.common.logging.nano.Vr$VREvent$JumpInspector -> com.google.common.logging.nano.Vr$VREvent$l:
+    com.google.common.logging.nano.Vr$VREvent$JumpInspector$PlaybackDetails playbackDetails -> b
+    com.google.common.logging.nano.Vr$VREvent$JumpInspector$PickerDetails pickerEvent -> c
+    com.google.common.logging.nano.Vr$VREvent$JumpInspector$MediaDetails mediaDetails -> a
+com.google.common.logging.nano.Vr$VREvent$JumpInspector$AudioDetails -> com.google.common.logging.nano.Vr$VREvent$l$a:
+    java.lang.Integer audioBitRate -> c
+    java.lang.Integer audioCodec -> d
+    java.lang.Integer audioChannelCount -> e
+    java.lang.Long mediaLengthSeconds -> a
+    java.lang.Integer sampleRate -> b
+com.google.common.logging.nano.Vr$VREvent$JumpInspector$ImageDetails -> com.google.common.logging.nano.Vr$VREvent$l$b:
+    com.google.common.logging.nano.Vr$VREvent$JumpInspector$Resolution resolution -> a
+    java.lang.Boolean usedMonoFilename -> b
+com.google.common.logging.nano.Vr$VREvent$JumpInspector$ImagePlaybackDetails -> com.google.common.logging.nano.Vr$VREvent$l$c:
+    java.lang.Integer playbackMode -> a
+com.google.common.logging.nano.Vr$VREvent$JumpInspector$MediaDetails -> com.google.common.logging.nano.Vr$VREvent$l$d:
+    com.google.common.logging.nano.Vr$VREvent$JumpInspector$AudioDetails audioDetails -> d
+    com.google.common.logging.nano.Vr$VREvent$JumpInspector$VideoDetails videoDetails -> b
+    java.lang.String fileExtension -> a
+    com.google.common.logging.nano.Vr$VREvent$JumpInspector$ImageDetails imageDetails -> c
+    int checkAudioCodecOrThrow(int) -> a
+    int checkVideoCodecOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$JumpInspector$PickerDetails -> com.google.common.logging.nano.Vr$VREvent$l$e:
+    java.lang.Integer numberOfFiles -> a
+    java.lang.Integer numberOfFolders -> b
+com.google.common.logging.nano.Vr$VREvent$JumpInspector$PlaybackDetails -> com.google.common.logging.nano.Vr$VREvent$l$f:
+    java.lang.Integer playbackEngine -> c
+    com.google.common.logging.nano.Vr$VREvent$JumpInspector$ImagePlaybackDetails imagePlayback -> e
+    com.google.common.logging.nano.Vr$VREvent$JumpInspector$VideoPlaybackDetails videoPlayback -> d
+    java.lang.Long playbackDurationSeconds -> b
+    java.lang.Integer playbackState -> a
+    int checkPlaybackEngineOrThrow(int) -> a
+    int checkPlaybackModeOrThrow(int) -> b
+    int checkPlaybackStateOrThrow(int) -> c
+com.google.common.logging.nano.Vr$VREvent$JumpInspector$Resolution -> com.google.common.logging.nano.Vr$VREvent$l$g:
+    java.lang.Integer width -> a
+    java.lang.Integer height -> b
+com.google.common.logging.nano.Vr$VREvent$JumpInspector$SphericalMetadata -> com.google.common.logging.nano.Vr$VREvent$l$h:
+    java.lang.Integer meshCrc -> c
+    java.lang.Integer metadataVersion -> a
+    java.lang.Integer projectionType -> b
+    int checkProjectionTypeOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$JumpInspector$VideoDetails -> com.google.common.logging.nano.Vr$VREvent$l$i:
+    java.lang.Integer sampleRate -> d
+    java.lang.Double framesPerSecond -> c
+    java.lang.Integer videoBitRate -> e
+    java.lang.Integer audioBitRate -> f
+    java.lang.Integer videoCodec -> g
+    java.lang.Boolean usedMonoFilename -> k
+    java.lang.Integer audioCodec -> h
+    java.lang.Boolean usedWalleFilename -> l
+    java.lang.Integer audioChannelCount -> j
+    java.lang.Long mediaLengthSeconds -> a
+    com.google.common.logging.nano.Vr$VREvent$JumpInspector$SphericalMetadata sphericalMetadata -> i
+    java.lang.Boolean usedWallyFilename -> m
+    com.google.common.logging.nano.Vr$VREvent$JumpInspector$Resolution resolution -> b
+com.google.common.logging.nano.Vr$VREvent$JumpInspector$VideoPlaybackDetails -> com.google.common.logging.nano.Vr$VREvent$l$j:
+    java.lang.Integer droppedFramesCount -> c
+    java.lang.Integer playbackMode -> a
+    java.lang.Boolean usedExternalSync -> b
+com.google.common.logging.nano.Vr$VREvent$Keyboard -> com.google.common.logging.nano.Vr$VREvent$m:
+    com.google.common.logging.nano.Vr$VREvent$Keyboard$KeyboardEvent[] keyboardEvents -> a
+    int checkKeyboardEventTypeOrThrow(int) -> a
+    int checkKeyboardInputTypeOrThrow(int) -> b
+    int checkKeyboardTextTypeOrThrow(int) -> c
+com.google.common.logging.nano.Vr$VREvent$Keyboard$KeyboardEvent -> com.google.common.logging.nano.Vr$VREvent$m$a:
+    java.lang.Integer eventType -> c
+    java.lang.String[] voiceInputLanguages -> l
+    com.google.common.logging.nano.Vr$VREvent$Keyboard$KeyboardTextEntry textEntry -> d
+    java.lang.String language -> h
+    com.google.common.logging.nano.Vr$VREvent$Keyboard$KeyboardEvent[] _emptyArray -> a
+    java.lang.String layout -> j
+    java.lang.Integer inputType -> i
+    java.lang.Integer suggestionCount -> k
+    java.lang.String[] enabledLanguages -> g
+    java.lang.Long clientTimestamp -> b
+    java.lang.String[] systemLanguages -> f
+    com.google.common.logging.nano.Vr$VREvent$Application keyboardService -> e
+com.google.common.logging.nano.Vr$VREvent$Keyboard$KeyboardTextEntry -> com.google.common.logging.nano.Vr$VREvent$m$b:
+    java.lang.String layout -> c
+    java.lang.Integer type -> a
+    java.lang.Integer length -> b
+    java.lang.String language -> d
+com.google.common.logging.nano.Vr$VREvent$Launcher -> com.google.common.logging.nano.Vr$VREvent$n:
+    java.lang.Integer navItem -> a
+    int checkNavItemOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$LoggingOptInState -> com.google.common.logging.nano.Vr$VREvent$o:
+    java.lang.Boolean wasOptedIntoSwaa -> c
+    java.lang.Integer numOptInAccounts -> a
+    java.lang.Integer accountIndex -> b
+com.google.common.logging.nano.Vr$VREvent$Lullaby -> com.google.common.logging.nano.Vr$VREvent$p:
+    com.google.common.logging.nano.Vr$VREvent$Lullaby$LoadTime loadTime -> d
+    java.lang.String contentId -> c
+    java.lang.Integer uiElement -> a
+    java.lang.Integer index -> b
+    int checkUiElementOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Lullaby$LoadTime -> com.google.common.logging.nano.Vr$VREvent$p$a:
+    java.lang.Long loadTimeMs -> b
+    java.lang.Integer assetType -> a
+    int checkAssetTypeOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$PerformanceStats -> com.google.common.logging.nano.Vr$VREvent$q:
+    java.lang.Integer memoryConsumptionKilobytes -> c
+    com.google.common.logging.nano.Vr$VREvent$HistogramBucket[] postFrameTime -> k
+    com.google.common.logging.nano.Vr$VREvent$HistogramBucket[] scanlineRacingVsyncOvershootUs -> m
+    com.google.common.logging.nano.Vr$VREvent$TimeSeriesData timeSeriesData -> g
+    java.lang.Float vrMaxSkinTemperatureCelsius -> e
+    java.lang.Integer averageFps -> a
+    com.google.common.logging.nano.Vr$VREvent$HistogramBucket[] presentTime -> i
+    com.google.common.logging.nano.Vr$VREvent$PerformanceStats$RenderTargetSize[] renderTargetSizes -> y
+    java.lang.Integer maxNumLayers -> x
+    java.lang.Integer thermalEventFlags -> n
+    float[] batteryShutdownTemperature -> t
+    java.lang.Float edsFps -> v
+    float[] cpuShutdownTemperature -> r
+    float[] gpuThrottlingTemperature -> p
+    com.google.common.logging.nano.Vr$VREvent$HistogramBucket[] consecutiveDroppedFrames -> l
+    java.lang.Float shutdownSkinTemperatureCelsius -> f
+    com.google.common.logging.nano.Vr$VREvent$HistogramBucket[] appRenderTime -> h
+    java.lang.Float throttleSkinTemperatureCelsius -> d
+    com.google.common.logging.nano.Vr$VREvent$HistogramBucket[] totalRenderTime -> j
+    java.lang.Integer layerSizeRoundingIncrement -> w
+    com.google.common.logging.nano.Vr$VREvent$HistogramBucket[] frameTime -> b
+    float[] gpuShutdownTemperature -> s
+    java.lang.Float averageAppFps -> u
+    float[] batteryThrottlingTemperature -> q
+    float[] cpuThrottlingTemperature -> o
+com.google.common.logging.nano.Vr$VREvent$PerformanceStats$RenderTargetSize -> com.google.common.logging.nano.Vr$VREvent$q$a:
+    java.lang.Integer y -> c
+    com.google.common.logging.nano.Vr$VREvent$PerformanceStats$RenderTargetSize[] _emptyArray -> a
+    java.lang.Long numFrames -> d
+    java.lang.Integer x -> b
+com.google.common.logging.nano.Vr$VREvent$PhoneAlignment -> com.google.common.logging.nano.Vr$VREvent$r:
+    com.google.common.logging.nano.Vr$VREvent$Vector2[] touchLocations -> a
+    com.google.common.logging.nano.Vr$VREvent$Vector2 lensOffset -> b
+    java.lang.Float angleDegrees -> c
+com.google.common.logging.nano.Vr$VREvent$Photos -> com.google.common.logging.nano.Vr$VREvent$s:
+    com.google.common.logging.nano.Vr$VREvent$Photos$WarmWelcome warmWelcome -> c
+    com.google.common.logging.nano.Vr$VREvent$Photos$OpenMedia openMedia -> b
+    java.lang.Integer numPhotos -> a
+    com.google.common.logging.nano.Vr$VREvent$Photos$MediaStats mediaStats -> d
+com.google.common.logging.nano.Vr$VREvent$Photos$MediaStats -> com.google.common.logging.nano.Vr$VREvent$s$a:
+    java.lang.Integer numVrMedia -> a
+    java.lang.Integer numAllMedia -> b
+com.google.common.logging.nano.Vr$VREvent$Photos$OpenMedia -> com.google.common.logging.nano.Vr$VREvent$s$b:
+    java.lang.Integer immersiveType -> d
+    java.lang.Integer stereoType -> e
+    java.lang.Boolean isSample -> c
+    java.lang.Integer type -> a
+    java.lang.Integer source -> b
+    int checkImmersiveTypeOrThrow(int) -> a
+    int checkMediaSourceOrThrow(int) -> b
+    int checkMediaTypeOrThrow(int) -> c
+    int checkStereoTypeOrThrow(int) -> d
+com.google.common.logging.nano.Vr$VREvent$Photos$WarmWelcome -> com.google.common.logging.nano.Vr$VREvent$s$c:
+    java.lang.Float exitProgress -> a
+com.google.common.logging.nano.Vr$VREvent$QrCodeScan -> com.google.common.logging.nano.Vr$VREvent$t:
+    java.lang.String headMountConfigUrl -> b
+    java.lang.Integer status -> a
+    int checkStatusOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Renderer -> com.google.common.logging.nano.Vr$VREvent$u:
+    java.lang.String glVendor -> a
+    java.lang.String glVersion -> c
+    java.lang.String glRenderer -> b
+com.google.common.logging.nano.Vr$VREvent$SensorStats -> com.google.common.logging.nano.Vr$VREvent$v:
+    com.google.common.logging.nano.Vr$VREvent$SensorStats$GyroscopeStats gyroscopeStats -> a
+com.google.common.logging.nano.Vr$VREvent$SensorStats$GyroscopeStats -> com.google.common.logging.nano.Vr$VREvent$v$a:
+    com.google.common.logging.nano.Vr$VREvent$SensorStats$Vector3 bias -> a
+    com.google.common.logging.nano.Vr$VREvent$SensorStats$Vector3 lowerBound -> b
+    com.google.common.logging.nano.Vr$VREvent$SensorStats$Vector3 upperBound -> c
+    com.google.common.logging.nano.Vr$VREvent$SensorStats$Vector3 standardDeviation -> d
+com.google.common.logging.nano.Vr$VREvent$SensorStats$Vector3 -> com.google.common.logging.nano.Vr$VREvent$v$b:
+    java.lang.Float z -> c
+    java.lang.Float x -> a
+    java.lang.Float y -> b
+com.google.common.logging.nano.Vr$VREvent$StandaloneHeadset -> com.google.common.logging.nano.Vr$VREvent$w:
+    com.google.common.logging.nano.Vr$VREvent$StandaloneHeadset$IdleMetrics idleMetrics -> d
+    com.google.common.logging.nano.Vr$VREvent$StandaloneHeadset$PowerState powerState -> a
+    com.google.common.logging.nano.Vr$VREvent$StandaloneHeadset$HeadSetOnOffStats onOffStats -> c
+    com.google.common.logging.nano.Vr$VREvent$StandaloneHeadset$MemoryStats memoryStats -> b
+com.google.common.logging.nano.Vr$VREvent$StandaloneHeadset$HeadSetOnOffStats -> com.google.common.logging.nano.Vr$VREvent$w$a:
+    java.lang.Long onOffCount -> a
+com.google.common.logging.nano.Vr$VREvent$StandaloneHeadset$IdleMetrics -> com.google.common.logging.nano.Vr$VREvent$w$b:
+    int[] idleReason -> b
+    java.lang.Integer screenState -> a
+    int checkIdleReasonOrThrow(int) -> a
+    int checkScreenStateOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$StandaloneHeadset$MemoryStats -> com.google.common.logging.nano.Vr$VREvent$w$c:
+    java.lang.Long availableMemoryKb -> c
+    java.lang.Long timeSinceBootNs -> d
+    java.lang.Long totalMemoryKb -> a
+    java.lang.Long freeMemoryKb -> b
+com.google.common.logging.nano.Vr$VREvent$StandaloneHeadset$PowerState -> com.google.common.logging.nano.Vr$VREvent$w$d:
+    java.lang.Long powerStateDurationNs -> b
+    java.lang.Integer powerStates -> a
+    int checkPowerStatesOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$StreetView -> com.google.common.logging.nano.Vr$VREvent$x:
+    com.google.common.logging.nano.Vr$VREvent$StreetView$PanoSession panoSession -> a
+    com.google.common.logging.nano.Vr$VREvent$StreetView$TutorialSession tutorialSession -> b
+com.google.common.logging.nano.Vr$VREvent$StreetView$PanoSession -> com.google.common.logging.nano.Vr$VREvent$x$a:
+    java.lang.Integer panosViewed -> c
+    java.lang.Integer nodesNavigated -> d
+    java.lang.Integer nextClicks -> e
+    java.lang.Integer prevClicks -> f
+    java.lang.Integer playPauseClicks -> g
+    java.lang.Integer infoClicks -> h
+    java.lang.Integer source -> a
+    java.lang.Integer panosAvailable -> b
+    int checkSourceOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$StreetView$TutorialSession -> com.google.common.logging.nano.Vr$VREvent$x$b:
+    java.lang.Integer tutorial -> a
+    java.lang.Boolean completed -> b
+    int checkTutorialOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$TimeSeriesData -> com.google.common.logging.nano.Vr$VREvent$y:
+    com.google.common.logging.nano.Vr$VREvent$TimeSeriesData$TimeIntervalData[] timeIntervalData -> b
+    java.lang.Integer timeIntervalSeconds -> a
+com.google.common.logging.nano.Vr$VREvent$TimeSeriesData$TimeIntervalData -> com.google.common.logging.nano.Vr$VREvent$y$a:
+    java.lang.Integer edsThreadFrameDropCount -> d
+    java.lang.Integer batteryLevel -> e
+    java.lang.Integer batteryLevelDelta -> f
+    java.lang.Integer thermalWarningsShown -> g
+    float[] gpuTemperature -> i
+    float[] batteryTemperature -> j
+    float[] cpuTemperature -> h
+    com.google.common.logging.nano.Vr$VREvent$TimeSeriesData$TimeIntervalData[] _emptyArray -> a
+    java.lang.Float skinTemperature -> c
+    java.lang.Integer intervalStartTimeSeconds -> b
+com.google.common.logging.nano.Vr$VREvent$Transform -> com.google.common.logging.nano.Vr$VREvent$z:
+    java.lang.Float scale -> g
+    java.lang.Float rotationQy -> e
+    java.lang.Float rotationQz -> f
+    java.lang.Float translationZ -> c
+    java.lang.Float rotationQx -> d
+    java.lang.Float translationX -> a
+    java.lang.Float translationY -> b
+com.google.common.logging.nano.Vr$VREvent$Vector2 -> com.google.common.logging.nano.Vr$VREvent$A:
+    com.google.common.logging.nano.Vr$VREvent$Vector2[] _emptyArray -> a
+    java.lang.Float y -> c
+    java.lang.Float x -> b
+com.google.common.logging.nano.Vr$VREvent$Vr180Creator -> com.google.common.logging.nano.Vr$VREvent$B:
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$PhotoMerge photoMerge -> e
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$VideoPublish videoPublish -> c
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$PhotoConvert photoConvert -> f
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$VideoConvert videoConvert -> b
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$ClientInfo clientInfo -> a
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$PhotoSplit photoSplit -> d
+    int checkStereoModeOrThrow(int) -> a
+    int checkVideoCodecOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$Vr180Creator$ClientInfo -> com.google.common.logging.nano.Vr$VREvent$B$a:
+    java.lang.String version -> b
+    java.lang.Integer platform -> a
+    int checkPlatformOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Fov -> com.google.common.logging.nano.Vr$VREvent$B$b:
+    java.lang.Integer fovX -> a
+    java.lang.Integer fovY -> b
+com.google.common.logging.nano.Vr$VREvent$Vr180Creator$PhotoConvert -> com.google.common.logging.nano.Vr$VREvent$B$c:
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Resolution resolution -> a
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Status status -> b
+com.google.common.logging.nano.Vr$VREvent$Vr180Creator$PhotoMerge -> com.google.common.logging.nano.Vr$VREvent$B$d:
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Resolution resolution -> a
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Status status -> b
+com.google.common.logging.nano.Vr$VREvent$Vr180Creator$PhotoSplit -> com.google.common.logging.nano.Vr$VREvent$B$e:
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Resolution resolution -> a
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Status status -> b
+com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Resolution -> com.google.common.logging.nano.Vr$VREvent$B$f:
+    java.lang.Integer width -> a
+    java.lang.Integer height -> b
+com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Status -> com.google.common.logging.nano.Vr$VREvent$B$g:
+    java.lang.Long durationMs -> b
+    java.lang.Integer code -> a
+    int checkCodeOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Vr180Creator$VideoConvert -> com.google.common.logging.nano.Vr$VREvent$B$h:
+    java.lang.Integer stereoMode -> c
+    java.lang.Integer videoCodec -> d
+    java.lang.Integer motionMode -> f
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Status status -> g
+    com.google.common.logging.Vr$VREvent$Vr180Creator$VideoQuality videoQuality -> e
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Fov fov -> b
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$VideoInfo videoInfo -> a
+    int checkMotionModeOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Vr180Creator$VideoInfo -> com.google.common.logging.nano.Vr$VREvent$B$i:
+    java.lang.Integer codec -> c
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Resolution resolution -> b
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$VideoInfo$VrMetadata vrMetadata -> d
+    java.lang.Long durationMs -> a
+com.google.common.logging.nano.Vr$VREvent$Vr180Creator$VideoInfo$VrMetadata -> com.google.common.logging.nano.Vr$VREvent$B$i$a:
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Fov v2EquirectCrop -> b
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Fov v1EquirectCrop -> c
+    java.lang.Boolean hasMotion -> d
+    java.lang.Integer projection -> a
+    int checkProjectionOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$Vr180Creator$VideoPublish -> com.google.common.logging.nano.Vr$VREvent$B$j:
+    java.lang.Integer videoCodec -> e
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Status status -> g
+    com.google.common.logging.Vr$VREvent$Vr180Creator$VideoQuality videoQuality -> f
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$VideoInfo videoInfo -> a
+    com.google.common.logging.nano.Vr$VREvent$Vr180Creator$Fov fov -> c
+    java.lang.Boolean transcoded -> d
+    java.lang.Integer stereoMode -> b
+com.google.common.logging.nano.Vr$VREvent$VrCore -> com.google.common.logging.nano.Vr$VREvent$C:
+    java.lang.Integer permission -> c
+    java.lang.Integer clientApiVersion -> e
+    com.google.common.logging.nano.Vr$VREvent$VrCore$CaptureEvent captureEvent -> j
+    java.lang.Boolean isInDemoMode -> i
+    java.lang.Long vrSessionId -> a
+    com.google.common.logging.nano.Vr$VREvent$Application foregroundApplication -> d
+    com.google.common.logging.nano.Vr$VREvent$Application previousForegroundApplication -> f
+    java.lang.Integer errorCode -> b
+    com.google.common.logging.nano.Vr$VREvent$VrCore$LockScreenEvent lockScreenEvent -> l
+    com.google.common.logging.nano.Vr$VREvent$VrCore$DashboardEvent dashboardEvent -> h
+    java.lang.Integer controllerHandedness -> k
+    java.lang.Integer compositionType -> m
+    com.google.common.logging.nano.Vr$VREvent$VrCore$Controller controller -> g
+    int checkCompositionTypeOrThrow(int) -> a
+    int checkErrorCodeOrThrow(int) -> b
+    int checkPermissionOrThrow(int) -> c
+com.google.common.logging.nano.Vr$VREvent$VrCore$CaptureEvent -> com.google.common.logging.nano.Vr$VREvent$C$a:
+    java.lang.Boolean initiatedByController -> a
+com.google.common.logging.nano.Vr$VREvent$VrCore$Controller -> com.google.common.logging.nano.Vr$VREvent$C$b:
+    java.lang.Boolean isConnected -> f
+    java.lang.String hardwareRevision -> h
+    java.lang.Integer batteryLevel -> g
+    java.lang.Integer xRailCount -> i
+    java.lang.Integer yRailCount -> j
+    java.lang.Integer zRailCount -> k
+    java.lang.Integer sampleCount -> l
+    java.lang.String manufacturer -> a
+    java.lang.Integer sensorType -> m
+    java.lang.Integer axis -> n
+    java.lang.String firmware -> c
+    java.lang.Integer otaRetries -> o
+    java.lang.String model -> b
+    java.lang.Integer totalControllerLagCount -> p
+    java.lang.String softwareRevision -> e
+    java.lang.Integer status -> q
+    java.lang.String availableFirmware -> d
+    int checkControllerAxisOrThrow(int) -> a
+    int checkSensorTypeOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$VrCore$DashboardEvent -> com.google.common.logging.nano.Vr$VREvent$C$c:
+    com.google.common.logging.nano.Vr$VREvent$VrCore$DashboardEvent$DashboardDismissDetails dismissDetails -> f
+    logs.proto.wireless.performance.mobile.MemoryMetric$AndroidMemoryStats worldAppMemoryStats -> e
+    java.lang.Long clientTimestamp -> b
+    java.lang.String sessionId -> c
+    com.google.common.logging.nano.Vr$VREvent$Application worldApp -> d
+    java.lang.Integer eventType -> a
+    int checkDashboardEventTypeOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$VrCore$DashboardEvent$DashboardDismissDetails -> com.google.common.logging.nano.Vr$VREvent$C$c$a:
+    java.lang.Integer dismissReason -> a
+    java.lang.Boolean worldAppDied -> b
+    int checkDashboardDismissReasonOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$VrCore$LockScreenEvent -> com.google.common.logging.nano.Vr$VREvent$C$d:
+    java.lang.Integer eventType -> a
+    int checkLockScreenEventTypeOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$VrHome -> com.google.common.logging.nano.Vr$VREvent$D:
+    com.google.common.logging.nano.Vr$VREvent$VrHome$Setup setup -> a
+    com.google.common.logging.nano.Vr$VREvent$VrHome$GetViewerClick getViewerClick -> c
+    com.google.common.logging.nano.Vr$VREvent$VrHome$DialogAction dialogAction -> d
+    com.google.common.logging.nano.Vr$VREvent$GConfigUpdate gConfigUpdate -> b
+com.google.common.logging.nano.Vr$VREvent$VrHome$DialogAction -> com.google.common.logging.nano.Vr$VREvent$D$a:
+    java.lang.Integer type -> a
+    java.lang.Integer actionType -> b
+    int checkDialogActionTypeOrThrow(int) -> a
+    int checkDialogTypeOrThrow(int) -> b
+com.google.common.logging.nano.Vr$VREvent$VrHome$GetViewerClick -> com.google.common.logging.nano.Vr$VREvent$D$b:
+    java.lang.String url -> a
+com.google.common.logging.nano.Vr$VREvent$VrHome$Setup -> com.google.common.logging.nano.Vr$VREvent$D$c:
+    com.google.common.logging.nano.Vr$VREvent$VrHome$Setup$StepStateChange stepStateChange -> b
+    com.google.common.logging.nano.Vr$VREvent$VrHome$Setup$View view -> a
+    int checkStepOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$VrHome$Setup$StepStateChange -> com.google.common.logging.nano.Vr$VREvent$D$c$a:
+    java.lang.Integer newStepState -> c
+    java.lang.Integer step -> a
+    java.lang.Integer previousStepState -> b
+    int checkStepStateOrThrow(int) -> a
+com.google.common.logging.nano.Vr$VREvent$VrHome$Setup$View -> com.google.common.logging.nano.Vr$VREvent$D$c$b:
+    java.lang.Integer step -> a
+    java.lang.Integer page -> b
+com.google.common.logging.nano.Vr$VREvent$VrStreaming -> com.google.common.logging.nano.Vr$VREvent$E:
+    com.google.common.logging.nano.Vr$VREvent$VrStreaming$SessionInfo sessionInfo -> a
+    com.google.common.logging.nano.Vr$VREvent$VrStreaming$Frame[] frame -> b
+com.google.common.logging.nano.Vr$VREvent$VrStreaming$Frame -> com.google.common.logging.nano.Vr$VREvent$E$a:
+    java.lang.Long poseSendTimeUsec -> c
+    java.lang.Long framePresentTimeUsec -> d
+    com.google.common.logging.nano.Vr$VREvent$VrStreaming$Frame[] _emptyArray -> a
+    java.lang.Long decodeStartTimeUsec -> e
+    java.lang.Integer poseId -> b
+    java.lang.Long decodeEndTimeUsec -> f
+com.google.common.logging.nano.Vr$VREvent$VrStreaming$SessionInfo -> com.google.common.logging.nano.Vr$VREvent$E$b:
+    java.lang.String sessionId -> a
+com.google.common.logging.nano.VrBaseOuterClass$VrBase$HeadMount -> com.google.common.logging.nano.a:
+    java.lang.String vendor -> a
+    java.lang.String model -> b
+com.google.gvr.keyboardsupport.KeyboardFragment -> com.google.gvr.keyboardsupport.a:
+    com.google.gvr.keyboardsupport.KeyboardFragment$KeyboardCallback keyboardCallback -> a
+    void callBackCall() -> a
+com.google.gvr.keyboardsupport.KeyboardFragment$KeyboardCallback -> com.google.gvr.keyboardsupport.a$a:
+    void onPlayStoreResult() -> a
+com.google.gvr.permissionsupport.PermissionsFragment -> com.google.gvr.permissionsupport.a:
+    com.google.gvr.permissionsupport.PermissionsFragment$PermissionsCallback permissionsCallback -> a
+    void setPermissionResult(boolean) -> a
+com.google.gvr.permissionsupport.PermissionsFragment$PermissionsCallback -> com.google.gvr.permissionsupport.a$a:
+    void onRequestPermissionResult(boolean) -> a
+com.google.gvr.permissionsupport.R$id -> com.google.gvr.permissionsupport.b:
+com.google.gvr.permissionsupport.R$layout -> com.google.gvr.permissionsupport.c:
+com.google.gvr.permissionsupport.TransitionVRActivity -> com.google.gvr.permissionsupport.TransitionVRActivity:
+    java.lang.String[] permissionArray -> a
+    boolean allPermissionsGranted -> b
+    void access$000(com.google.gvr.permissionsupport.TransitionVRActivity) -> a
+    void setImmersiveSticky() -> a
+com.google.gvr.permissionsupport.TransitionVRActivity$1 -> com.google.gvr.permissionsupport.d:
+    com.google.gvr.permissionsupport.TransitionVRActivity this$0 -> a
+com.google.protobuf.nano.CodedInputByteBufferNano -> a.a.a.a.a:
+    byte[] buffer -> a
+    int sizeLimit -> j
+    int recursionDepth -> h
+    int recursionLimit -> i
+    int lastTag -> f
+    int currentLimit -> g
+    int bufferSizeAfterLimit -> d
+    int bufferPos -> e
+    int bufferStart -> b
+    int bufferSize -> c
+    void checkLastTagWas(int) -> a
+    int getBytesUntilLimit() -> a
+    byte[] getData(int,int) -> a
+    com.google.protobuf.nano.CodedInputByteBufferNano newInstance(byte[],int,int) -> a
+    void readMessage(com.google.protobuf.nano.MessageNano) -> a
+    int getPosition() -> b
+    void popLimit(int) -> b
+    boolean isAtEnd() -> c
+    int pushLimit(int) -> c
+    boolean readBool() -> d
+    byte[] readRawBytes(int) -> d
+    double readDouble() -> e
+    void rewindToPosition(int) -> e
+    float readFloat() -> f
+    boolean skipField(int) -> f
+    int readInt32() -> g
+    void skipRawBytes(int) -> g
+    long readInt64() -> h
+    byte readRawByte() -> i
+    int readRawLittleEndian32() -> j
+    long readRawLittleEndian64() -> k
+    int readRawVarint32() -> l
+    long readRawVarint64() -> m
+    java.lang.String readString() -> n
+    int readTag() -> o
+    long readUInt64() -> p
+    void skipMessage() -> q
+    void recomputeBufferSizeAfterLimit() -> r
+com.google.protobuf.nano.CodedOutputByteBufferNano -> a.a.a.a.b:
+    java.nio.ByteBuffer buffer -> a
+    void checkNoSpaceLeft() -> a
+    int computeBoolSize(int,boolean) -> a
+    int computeBoolSizeNoTag(boolean) -> a
+    int computeDoubleSize(int,double) -> a
+    int computeDoubleSizeNoTag(double) -> a
+    int computeFloatSize(int,float) -> a
+    int computeFloatSizeNoTag(float) -> a
+    int computeInt32Size(int,int) -> a
+    int computeInt32SizeNoTag(int) -> a
+    int computeInt64Size(int,long) -> a
+    int computeInt64SizeNoTag(long) -> a
+    int computeMessageSize(int,com.google.protobuf.nano.MessageNano) -> a
+    int computeMessageSizeNoTag(com.google.protobuf.nano.MessageNano) -> a
+    int computeStringSize(int,java.lang.String) -> a
+    int computeStringSizeNoTag(java.lang.String) -> a
+    int encode(java.lang.CharSequence,byte[],int,int) -> a
+    void encode(java.lang.CharSequence,java.nio.ByteBuffer) -> a
+    int encodedLength(java.lang.CharSequence) -> a
+    int encodedLengthGeneral(java.lang.CharSequence,int) -> a
+    com.google.protobuf.nano.CodedOutputByteBufferNano newInstance(byte[]) -> a
+    com.google.protobuf.nano.CodedOutputByteBufferNano newInstance(byte[],int,int) -> a
+    void writeRawByte(byte) -> a
+    int computeRawVarint32Size(int) -> b
+    int computeRawVarint64Size(long) -> b
+    int computeUInt64Size(int,long) -> b
+    void encodeDirect(java.lang.CharSequence,java.nio.ByteBuffer) -> b
+    int spaceLeft() -> b
+    void writeBool(int,boolean) -> b
+    void writeBoolNoTag(boolean) -> b
+    void writeDouble(int,double) -> b
+    void writeDoubleNoTag(double) -> b
+    void writeFloat(int,float) -> b
+    void writeFloatNoTag(float) -> b
+    void writeInt32(int,int) -> b
+    void writeMessage(int,com.google.protobuf.nano.MessageNano) -> b
+    void writeMessageNoTag(com.google.protobuf.nano.MessageNano) -> b
+    void writeRawBytes(byte[]) -> b
+    void writeRawBytes(byte[],int,int) -> b
+    void writeString(int,java.lang.String) -> b
+    void writeStringNoTag(java.lang.String) -> b
+    int computeTagSize(int) -> c
+    int computeUInt64SizeNoTag(long) -> c
+    void writeInt64(int,long) -> c
+    void writeTag(int,int) -> c
+    void writeInt32NoTag(int) -> d
+    void writeInt64NoTag(long) -> d
+    void writeUInt64(int,long) -> d
+    void writeRawByte(int) -> e
+    void writeRawLittleEndian64(long) -> e
+    void writeRawLittleEndian32(int) -> f
+    void writeRawVarint64(long) -> f
+    void writeRawVarint32(int) -> g
+    void writeUInt64NoTag(long) -> g
+com.google.protobuf.nano.CodedOutputByteBufferNano$OutOfSpaceException -> a.a.a.a.b$a:
+com.google.protobuf.nano.ExtendableMessageNano -> a.a.a.a.c:
+com.google.protobuf.nano.Extension -> a.a.a.a.d:
+    java.lang.Class clazz -> a
+    int computeSerializedSize(java.lang.Object) -> a
+    void writeTo(java.lang.Object,com.google.protobuf.nano.CodedOutputByteBufferNano) -> a
+com.google.protobuf.nano.FieldArray -> a.a.a.a.e:
+    int[] mFieldNumbers -> c
+    com.google.protobuf.nano.FieldData[] mData -> d
+    int mSize -> e
+    boolean mGarbage -> b
+    com.google.protobuf.nano.FieldData DELETED -> a
+    boolean arrayEquals(int[],int[],int) -> a
+    boolean arrayEquals(com.google.protobuf.nano.FieldData[],com.google.protobuf.nano.FieldData[],int) -> a
+    com.google.protobuf.nano.FieldData dataAt(int) -> a
+    void put(int,com.google.protobuf.nano.FieldData) -> a
+    int size() -> a
+    void gc() -> b
+    com.google.protobuf.nano.FieldData get(int) -> b
+    int binarySearch(int) -> c
+    int idealByteArraySize(int) -> d
+    int idealIntArraySize(int) -> e
+com.google.protobuf.nano.FieldData -> a.a.a.a.f:
+    java.util.List unknownFieldData -> c
+    java.lang.Object value -> b
+    com.google.protobuf.nano.Extension cachedExtension -> a
+    void addUnknownField(com.google.protobuf.nano.UnknownFieldData) -> a
+    int computeSerializedSize() -> a
+    void writeTo(com.google.protobuf.nano.CodedOutputByteBufferNano) -> a
+    byte[] toByteArray() -> b
+com.google.protobuf.nano.InternalNano -> a.a.a.a.g:
+    java.nio.charset.Charset ISO_8859_1 -> b
+    java.nio.charset.Charset UTF_8 -> a
+    java.lang.Object LAZY_INIT_LOCK -> c
+    void cloneUnknownFieldData(com.google.protobuf.nano.ExtendableMessageNano,com.google.protobuf.nano.ExtendableMessageNano) -> a
+com.google.protobuf.nano.InvalidProtocolBufferNanoException -> a.a.a.a.h:
+    com.google.protobuf.nano.InvalidProtocolBufferNanoException invalidEndTag() -> a
+    com.google.protobuf.nano.InvalidProtocolBufferNanoException invalidTag() -> b
+    com.google.protobuf.nano.InvalidProtocolBufferNanoException invalidWireType() -> c
+    com.google.protobuf.nano.InvalidProtocolBufferNanoException malformedVarint() -> d
+    com.google.protobuf.nano.InvalidProtocolBufferNanoException negativeSize() -> e
+    com.google.protobuf.nano.InvalidProtocolBufferNanoException recursionLimitExceeded() -> f
+    com.google.protobuf.nano.InvalidProtocolBufferNanoException truncatedMessage() -> g
+com.google.protobuf.nano.MessageNano -> a.a.a.a.i:
+com.google.protobuf.nano.MessageNanoPrinter -> a.a.a.a.j:
+    void appendQuotedBytes(byte[],java.lang.StringBuffer) -> a
+    java.lang.String deCamelCaseify(java.lang.String) -> a
+    java.lang.String print(com.google.protobuf.nano.MessageNano) -> a
+    void print(java.lang.String,java.lang.Object,java.lang.StringBuffer,java.lang.StringBuffer) -> a
+    java.lang.String escapeString(java.lang.String) -> b
+    java.lang.String sanitizeString(java.lang.String) -> c
+com.google.protobuf.nano.UnknownFieldData -> a.a.a.a.k:
+    byte[] bytes -> b
+    int tag -> a
+    int computeSerializedSize() -> a
+    void writeTo(com.google.protobuf.nano.CodedOutputByteBufferNano) -> a
+com.google.protobuf.nano.WireFormatNano -> a.a.a.a.l:
+    boolean[] EMPTY_BOOLEAN_ARRAY -> e
+    byte[][] EMPTY_BYTES_ARRAY -> g
+    long[] EMPTY_LONG_ARRAY -> b
+    double[] EMPTY_DOUBLE_ARRAY -> d
+    byte[] EMPTY_BYTES -> h
+    float[] EMPTY_FLOAT_ARRAY -> c
+    int[] EMPTY_INT_ARRAY -> a
+    java.lang.String[] EMPTY_STRING_ARRAY -> f
+    int getRepeatedFieldArrayLength(com.google.protobuf.nano.CodedInputByteBufferNano,int) -> a
+    int getTagFieldNumber(int) -> a
+    int makeTag(int,int) -> a
+    int getTagWireType(int) -> b
+com.google.vr.audio.DeviceInfo -> com.google.vr.audio.DeviceInfo:
+    android.content.Context context -> b
+    android.content.BroadcastReceiver headphoneStateReceiver -> c
+    long nativeObject -> a
+    long access$000(com.google.vr.audio.DeviceInfo) -> a
+    void access$100(com.google.vr.audio.DeviceInfo,long,int) -> a
+com.google.vr.audio.DeviceInfo$1 -> com.google.vr.audio.a:
+    com.google.vr.audio.DeviceInfo this$0 -> a
+com.google.vr.cardboard.AndroidNCompat -> com.google.vr.cardboard.d:
+    java.lang.String TAG -> a
+    int sSdkLevelOverride -> b
+    java.lang.String access$000() -> a
+    boolean handleVrCoreAbsence(android.content.Context,int) -> a
+    boolean isVrModeSupported(android.content.Context) -> a
+    boolean setSustainedPerformanceMode(android.app.Activity,boolean) -> a
+    boolean setVrModeEnabled(android.app.Activity,boolean,int) -> a
+    void setVrThread(int) -> a
+    void showWarningDialog(android.content.Context,int,int,android.content.DialogInterface$OnClickListener) -> a
+    int checkForVrCorePresence(android.content.Context) -> b
+    boolean isAtLeastN() -> b
+    boolean setVrModeEnabled(android.app.Activity,boolean) -> b
+    boolean isAtLeastNMR1() -> c
+    boolean isVrModeHighPerformanceSupported(android.content.Context) -> c
+com.google.vr.cardboard.AndroidNCompat$1 -> com.google.vr.cardboard.a:
+    android.content.Context val$context -> a
+com.google.vr.cardboard.AndroidNCompat$2 -> com.google.vr.cardboard.b:
+    android.content.Context val$context -> a
+com.google.vr.cardboard.AndroidNCompat$3 -> com.google.vr.cardboard.c:
+com.google.vr.cardboard.AndroidPCompat -> com.google.vr.cardboard.e:
+    boolean doesWindowExtendIntoCutoutArea(android.view.Window) -> a
+    com.google.vr.cardboard.AndroidPCompat$DisplayCutoutCompat getDisplayCutout(android.view.Display) -> a
+    boolean isAtLeastP() -> a
+com.google.vr.cardboard.AndroidPCompat$DisplayCutoutCompat -> com.google.vr.cardboard.e$a:
+    java.lang.Object displayCutout -> b
+    java.lang.Class DISPLAY_CUTOUT_CLASS -> a
+    com.google.vr.cardboard.AndroidPCompat$DisplayCutoutCompat create(java.lang.Object) -> a
+    int getSafeInsetBottom() -> a
+    int tryGetInt(java.lang.String) -> a
+    int getSafeInsetLeft() -> b
+    int getSafeInsetRight() -> c
+    int getSafeInsetTop() -> d
+    java.lang.Class tryGetDisplayCutoutClass() -> e
+com.google.vr.cardboard.ConfigUtils -> com.google.vr.cardboard.f:
+    java.lang.String TAG -> a
+    java.io.File getConfigFile(java.lang.String) -> a
+    com.google.vr.sdk.proto.nano.CardboardDevice$DeviceParams readDeviceParamsFromExternalStorage() -> a
+    com.google.protobuf.nano.MessageNano readFromExternalStorage(java.lang.Class,java.lang.String,int,boolean) -> a
+    com.google.protobuf.nano.MessageNano readFromInputStream(java.lang.Class,java.io.InputStream,int) -> a
+    boolean writeDeviceParamsToExternalStorage(com.google.vr.sdk.proto.nano.CardboardDevice$DeviceParams) -> a
+    boolean writeToExternalStorage(com.google.protobuf.nano.MessageNano,java.lang.String,int) -> a
+    boolean writeToOutputStream(com.google.protobuf.nano.MessageNano,java.io.OutputStream,int) -> a
+    com.google.vr.sdk.proto.nano.Display$DisplayParams readDisplayParamsFromExternalStorage() -> b
+    boolean removeDeviceParamsFromExternalStorage() -> c
+com.google.vr.cardboard.ContentProviderVrParamsProvider -> com.google.vr.cardboard.g:
+    android.net.Uri recentHeadsetsSettingUri -> g
+    android.net.Uri sdkConfigurationParamsSettingUri -> f
+    android.net.Uri displayParamsSettingUri -> e
+    android.content.ContentProviderClient client -> b
+    java.lang.String TAG -> a
+    android.net.Uri userPrefsUri -> d
+    android.net.Uri deviceParamsSettingUri -> c
+    com.google.vr.sdk.proto.nano.CardboardDevice$DeviceParams readDeviceParams() -> a
+    com.google.protobuf.nano.MessageNano readParams(com.google.protobuf.nano.MessageNano,android.net.Uri,java.lang.String) -> a
+    com.google.common.logging.nano.Vr$VREvent$SdkConfigurationParams readSdkConfigurationParams(com.google.vr.sdk.proto.nano.SdkConfiguration$SdkConfigurationRequest) -> a
+    boolean writeDeviceParams(com.google.vr.sdk.proto.nano.CardboardDevice$DeviceParams) -> a
+    boolean writeParams(com.google.protobuf.nano.MessageNano,android.net.Uri) -> a
+    com.google.vr.sdk.proto.nano.Display$DisplayParams readDisplayParams() -> b
+    com.google.vr.sdk.proto.nano.Preferences$UserPrefs readUserPrefs() -> c
+com.google.vr.cardboard.ContextUtils -> com.google.vr.cardboard.h:
+    android.app.Activity getActivity(android.content.Context) -> a
+    android.content.ComponentName getComponentName(android.content.Context) -> b
+com.google.vr.cardboard.DisplaySynchronizer -> com.google.vr.cardboard.DisplaySynchronizer:
+    android.view.Display display -> d
+    long lastDisplayRotationUpdateTimeNanos -> g
+    long nativeDisplaySynchronizer -> b
+    int displayRotationDegrees -> f
+    long DISPLAY_ROTATION_REFRESH_INTERVAL_NANOS -> a
+    android.util.DisplayMetrics displayMetrics -> e
+    com.google.vr.cardboard.FrameMonitor frameMonitor -> c
+    void disableFrameMonitor() -> a
+    void setDisplay(android.view.Display) -> a
+    long getNativeDisplaySynchronizer() -> b
+    void onConfigurationChanged() -> c
+    void onPause() -> d
+    void onResume() -> e
+    void shutdown() -> f
+    void checkNativeDisplaySynchronizer() -> g
+    void invalidateDisplayProperties() -> h
+com.google.vr.cardboard.DisplayUtils -> com.google.vr.cardboard.i:
+    float getBorderSizeMeters(com.google.vr.sdk.proto.nano.Display$DisplayParams) -> a
+    int getCutoutMarginLandscapePixels(android.content.Context,android.view.Display,com.google.vr.cardboard.AndroidPCompat) -> a
+    android.view.Display getDefaultDisplay(android.content.Context) -> a
+    android.util.DisplayMetrics getDisplayMetricsLandscape(android.view.Display) -> a
+    android.util.DisplayMetrics getDisplayMetricsLandscapeWithOverride(android.view.Display,com.google.vr.sdk.proto.nano.Display$DisplayParams) -> a
+    float getMetersPerPixelFromDotsPerInch(float) -> a
+    boolean isSameDisplay(android.view.Display,android.view.Display) -> a
+    java.lang.String getExternalDisplayName(android.content.Context) -> b
+com.google.vr.cardboard.EglFactory -> com.google.vr.cardboard.j:
+    javax.microedition.khronos.egl.EGLContext sharedContext -> f
+    int eglContextClientVersion -> e
+    boolean usePriority -> a
+    boolean useProtected -> b
+    boolean useDebug -> c
+    boolean errorReportingEnabled -> d
+    void setEGLContextClientVersion(int) -> a
+    void setErrorReportingEnabled(boolean) -> a
+    void setSharedContext(javax.microedition.khronos.egl.EGLContext) -> a
+    boolean supportsProtectedContent(javax.microedition.khronos.egl.EGL10,javax.microedition.khronos.egl.EGLDisplay) -> a
+    void setUseDebug(boolean) -> b
+    void setUsePriorityContext(boolean) -> c
+    void setUseProtectedBuffers(boolean) -> d
+com.google.vr.cardboard.EglReadyListener -> com.google.vr.cardboard.EglReadyListener:
+    java.lang.Object listenerLock -> f
+    java.lang.Object contextInfoLock -> d
+    com.google.vr.cardboard.EglReadyListener$EventListener listener -> e
+    javax.microedition.khronos.egl.EGLContext eglContext -> a
+    int eglContextFlags -> b
+    int glVersion -> c
+    void clearContext() -> a
+    int parseVersionString(java.lang.String) -> a
+    void setEventListener(com.google.vr.cardboard.EglReadyListener$EventListener) -> a
+    javax.microedition.khronos.egl.EGLContext getEGLContext() -> b
+    int getEGLContextFlags() -> c
+    int getGLVersion() -> d
+    void releaseEventListener() -> e
+com.google.vr.cardboard.EglReadyListener$EventListener -> com.google.vr.cardboard.EglReadyListener$a:
+com.google.vr.cardboard.ExternalSurfaceManager -> com.google.vr.cardboard.ExternalSurfaceManager:
+    com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurfaceData surfaceData -> e
+    java.lang.Object surfaceDataUpdateLock -> d
+    com.google.vr.cardboard.ExternalSurfaceManager$SurfaceTextureFactory surfaceTextureFactory -> c
+    int nextID -> f
+    com.google.vr.cardboard.ExternalSurfaceManager$UpdateSurfaceCallback updateSurfaceCallback -> b
+    java.lang.String TAG -> a
+    boolean isAttachedToGlContext -> g
+    void access$000(long,int,int,long,float[]) -> a
+    void access$200(long) -> a
+    void consumerUpdateManagedSurfaceHelper(com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurfaceConsumer) -> a
+    int createExternalSurfaceImpl(int,int,com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurfaceCallback) -> a
+    void lambda$consumerUpdateManagedSurfaces$0$ExternalSurfaceManager(com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurface) -> a
+    void lambda$consumerUpdateManagedSurfacesSequentially$1$ExternalSurfaceManager(com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurface) -> b
+com.google.vr.cardboard.ExternalSurfaceManager$$Lambda$0 -> com.google.vr.cardboard.k:
+    com.google.vr.cardboard.ExternalSurfaceManager arg$1 -> a
+    void accept(com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurface) -> a
+com.google.vr.cardboard.ExternalSurfaceManager$$Lambda$1 -> com.google.vr.cardboard.l:
+    com.google.vr.cardboard.ExternalSurfaceManager arg$1 -> a
+    void accept(com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurface) -> a
+com.google.vr.cardboard.ExternalSurfaceManager$1 -> com.google.vr.cardboard.m:
+    long val$nativeSurfaceManager -> a
+    void updateSurface(int,int,long,float[]) -> a
+com.google.vr.cardboard.ExternalSurfaceManager$2 -> com.google.vr.cardboard.n:
+    android.graphics.SurfaceTexture createSurfaceTexture(int) -> a
+com.google.vr.cardboard.ExternalSurfaceManager$AndroidHandlerCallback -> com.google.vr.cardboard.ExternalSurfaceManager$a:
+    java.lang.Runnable frameListener -> b
+    android.os.Handler handler -> c
+    java.lang.Runnable surfaceListener -> a
+    void cancelPosts() -> a
+    void onSurfaceAvailable() -> b
+com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurface -> com.google.vr.cardboard.ExternalSurfaceManager$b:
+    boolean isShutdown -> m
+    int surfaceTextureWidth -> h
+    com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurfaceCallback callback -> b
+    int surfaceTextureHeight -> i
+    boolean isAttached -> l
+    com.google.vr.cardboard.ExternalSurfaceManager$SurfaceTextureFactory surfaceTextureFactory -> c
+    float[] transformMatrix -> d
+    java.lang.Object onFrameAvailableShutdownLock -> n
+    int id -> a
+    java.util.concurrent.atomic.AtomicInteger frameAvailableCallbackCount -> e
+    int[] glTextureId -> g
+    java.util.concurrent.atomic.AtomicBoolean released -> f
+    android.graphics.SurfaceTexture surfaceTexture -> j
+    android.view.Surface surface -> k
+    java.util.concurrent.atomic.AtomicBoolean access$100(com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurface) -> a
+    android.view.Surface getSurface() -> a
+    void maybeAttachToCurrentGLContext(int) -> a
+    void shutdown(com.google.vr.cardboard.ExternalSurfaceManager$UpdateSurfaceCallback) -> a
+    java.util.concurrent.atomic.AtomicInteger access$300(com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurface) -> b
+    void maybeAttachToCurrentGLContext() -> b
+    void updateSurfaceTexture(com.google.vr.cardboard.ExternalSurfaceManager$UpdateSurfaceCallback) -> b
+    java.lang.Object access$400(com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurface) -> c
+    void maybeDetachFromCurrentGLContext() -> c
+    void updateSurfaceTextureSequentially(com.google.vr.cardboard.ExternalSurfaceManager$UpdateSurfaceCallback) -> c
+    boolean access$500(com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurface) -> d
+    com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurfaceCallback access$600(com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurface) -> e
+com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurface$1 -> com.google.vr.cardboard.o:
+    com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurface this$0 -> a
+com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurfaceCallback -> com.google.vr.cardboard.ExternalSurfaceManager$c:
+    void cancelPosts() -> a
+    void onSurfaceAvailable() -> b
+com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurfaceConsumer -> com.google.vr.cardboard.ExternalSurfaceManager$d:
+    void accept(com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurface) -> a
+com.google.vr.cardboard.ExternalSurfaceManager$ExternalSurfaceData -> com.google.vr.cardboard.ExternalSurfaceManager$e:
+    java.util.HashMap surfacesToRelease -> b
+    java.util.HashMap surfaces -> a
+com.google.vr.cardboard.ExternalSurfaceManager$NativeCallback -> com.google.vr.cardboard.ExternalSurfaceManager$f:
+    android.os.Handler surfaceMainHandler -> c
+    long nativeFrameCallbackPtr -> b
+    java.lang.Runnable surfaceListener -> a
+    void cancelPosts() -> a
+    void lambda$new$0$ExternalSurfaceManager$NativeCallback(long) -> a
+    void onSurfaceAvailable() -> b
+com.google.vr.cardboard.ExternalSurfaceManager$NativeCallback$$Lambda$0 -> com.google.vr.cardboard.p:
+    long arg$1 -> a
+com.google.vr.cardboard.ExternalSurfaceManager$SurfaceTextureFactory -> com.google.vr.cardboard.ExternalSurfaceManager$g:
+    android.graphics.SurfaceTexture createSurfaceTexture(int) -> a
+com.google.vr.cardboard.ExternalSurfaceManager$UpdateSurfaceCallback -> com.google.vr.cardboard.ExternalSurfaceManager$h:
+    void updateSurface(int,int,long,float[]) -> a
+com.google.vr.cardboard.FrameMonitor -> com.google.vr.cardboard.q:
+    android.os.Handler handler -> d
+    boolean isResumed -> f
+    java.lang.String TAG -> a
+    android.view.Choreographer$FrameCallback callback -> b
+    android.os.HandlerThread choreographerOwnerThread -> c
+    android.view.Choreographer choreographer -> e
+    void init() -> a
+    void onPause() -> b
+    void onResume() -> c
+    void shutdown() -> d
+com.google.vr.cardboard.IsEmulator -> com.google.vr.cardboard.r:
+    boolean isEmulator() -> a
+com.google.vr.cardboard.LegacyVrParamsProvider -> com.google.vr.cardboard.s:
+    android.content.Context context -> a
+    com.google.vr.sdk.proto.nano.CardboardDevice$DeviceParams readDeviceParams() -> a
+    com.google.common.logging.nano.Vr$VREvent$SdkConfigurationParams readSdkConfigurationParams(com.google.vr.sdk.proto.nano.SdkConfiguration$SdkConfigurationRequest) -> a
+    boolean writeDeviceParams(com.google.vr.sdk.proto.nano.CardboardDevice$DeviceParams) -> a
+    com.google.vr.sdk.proto.nano.Display$DisplayParams readDisplayParams() -> b
+    com.google.vr.sdk.proto.nano.Preferences$UserPrefs readUserPrefs() -> c
+com.google.vr.cardboard.MutableEglConfigChooser -> com.google.vr.cardboard.t:
+    boolean IS_EMULATOR -> a
+    boolean forceMutableBuffer -> b
+    javax.microedition.khronos.egl.EGLConfig chooseConfig(javax.microedition.khronos.egl.EGL10,javax.microedition.khronos.egl.EGLDisplay,javax.microedition.khronos.egl.EGLConfig[],boolean) -> a
+    int findConfigAttrib(javax.microedition.khronos.egl.EGL10,javax.microedition.khronos.egl.EGLDisplay,javax.microedition.khronos.egl.EGLConfig,int,int) -> a
+com.google.vr.cardboard.PackageUtils -> com.google.vr.cardboard.u:
+    boolean isGooglePackage(java.lang.String) -> a
+    boolean isSystemPackage(android.content.Context,java.lang.String) -> a
+com.google.vr.cardboard.PpiOverrides -> com.google.vr.cardboard.v:
+    java.util.List PPI_OVERRIDES -> c
+    java.lang.String TAG -> a
+    java.util.ArrayList supportedDisplaySizes -> b
+    com.google.vr.sdk.proto.nano.Display$DisplayParams getPpiOverride(android.content.Context) -> a
+    boolean getPpiOverride(java.util.List,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.google.vr.sdk.proto.nano.Display$DisplayParams) -> a
+    java.util.ArrayList getSupportedDisplaySizes(android.view.Display) -> a
+    java.lang.String hashString(java.lang.String) -> a
+com.google.vr.cardboard.PpiOverrides$PpiOverride -> com.google.vr.cardboard.v$a:
+    java.lang.Float bottomBezelHeight -> g
+    java.lang.String manufacturer -> a
+    java.lang.Float xPpi -> e
+    java.lang.Float yPpi -> f
+    java.lang.String model -> c
+    java.lang.String device -> b
+    java.lang.String hardware -> d
+    boolean isMatching(java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+com.google.vr.cardboard.R$dimen -> com.google.vr.cardboard.w:
+com.google.vr.cardboard.R$id -> com.google.vr.cardboard.x:
+com.google.vr.cardboard.R$layout -> com.google.vr.cardboard.y:
+com.google.vr.cardboard.R$string -> com.google.vr.cardboard.z:
+com.google.vr.cardboard.R$style -> com.google.vr.cardboard.A:
+com.google.vr.cardboard.ScanlineRacingRenderer -> com.google.vr.cardboard.C:
+    com.google.vr.ndk.base.GvrApi gvrApi -> a
+    com.google.vr.ndk.base.GvrSurfaceView gvrSurfaceView -> b
+    com.google.vr.ndk.base.GvrSurfaceView access$000(com.google.vr.cardboard.ScanlineRacingRenderer) -> a
+    void onPause() -> a
+    void setSurfaceSize(int,int) -> a
+    void setSurfaceView(com.google.vr.ndk.base.GvrSurfaceView) -> a
+    void onSurfaceDestroyed() -> b
+com.google.vr.cardboard.ScanlineRacingRenderer$1 -> com.google.vr.cardboard.B:
+    com.google.vr.cardboard.ScanlineRacingRenderer this$0 -> c
+    int val$surfaceHeightPixels -> b
+    int val$surfaceWidthPixels -> a
+com.google.vr.cardboard.StoragePermissionUtils -> com.google.vr.cardboard.D:
+    java.lang.String TAG -> a
+    void requestStoragePermission(android.content.Context) -> a
+com.google.vr.cardboard.ThreadUtils -> com.google.vr.cardboard.E:
+    android.os.Handler uiHandler -> a
+    void runOnUiThread(java.lang.Runnable) -> a
+    boolean runningOnUiThread() -> a
+com.google.vr.cardboard.TransitionView -> com.google.vr.cardboard.K:
+    java.lang.Runnable transitionListener -> d
+    android.view.OrientationEventListener orientationEventListener -> b
+    java.lang.Runnable backButtonListener -> f
+    boolean rotationChecked -> c
+    android.widget.ImageButton backButton -> e
+    int orientation -> a
+    void access$000(com.google.vr.cardboard.TransitionView,boolean) -> a
+    int access$102(com.google.vr.cardboard.TransitionView,int) -> a
+    boolean access$200(com.google.vr.cardboard.TransitionView) -> a
+    boolean access$400(int) -> a
+    void fadeOutAndRemove(boolean) -> a
+    void rotateViewIfNeeded() -> a
+    void access$300(com.google.vr.cardboard.TransitionView) -> b
+    boolean access$500(int) -> b
+    void startOrientationMonitor() -> b
+    java.lang.Runnable access$600(com.google.vr.cardboard.TransitionView) -> c
+    void inflateContentView(int) -> c
+    void stopOrientationMonitor() -> c
+    java.lang.Runnable access$700(com.google.vr.cardboard.TransitionView) -> d
+    boolean isLandscapeLeft(int) -> d
+    void updateBackButtonVisibility() -> d
+    boolean isLandscapeRight(int) -> e
+    boolean isPortrait(int) -> f
+com.google.vr.cardboard.TransitionView$1 -> com.google.vr.cardboard.F:
+    com.google.vr.cardboard.TransitionView this$0 -> a
+com.google.vr.cardboard.TransitionView$2 -> com.google.vr.cardboard.G:
+    com.google.vr.cardboard.TransitionView this$0 -> a
+com.google.vr.cardboard.TransitionView$3 -> com.google.vr.cardboard.H:
+    com.google.vr.cardboard.TransitionView this$0 -> a
+com.google.vr.cardboard.TransitionView$4 -> com.google.vr.cardboard.I:
+    com.google.vr.cardboard.TransitionView this$0 -> a
+com.google.vr.cardboard.TransitionView$5 -> com.google.vr.cardboard.J:
+    com.google.vr.cardboard.TransitionView this$0 -> a
+com.google.vr.cardboard.UiLayer -> com.google.vr.cardboard.Y:
+    android.content.Context context -> a
+    android.widget.RelativeLayout rootInnerLayout -> i
+    android.widget.RelativeLayout alignmentMarker -> g
+    boolean isEnabled -> j
+    boolean isSettingsButtonEnabled -> k
+    boolean isAlignmentMarkerEnabled -> l
+    boolean transitionViewEnabled -> q
+    java.lang.String viewerName -> r
+    android.widget.FrameLayout rootOuterLayout -> b
+    java.lang.Runnable buttonClickCallbackOverride -> m
+    float alignmentMarkerScale -> s
+    android.view.View settingsButtonHolder -> c
+    int currentLayoutId -> t
+    com.google.vr.cardboard.TransitionView transitionView -> h
+    android.view.View backButtonHolder -> e
+    android.widget.ImageButton settingsButton -> d
+    java.lang.Runnable transitionListener -> p
+    java.lang.Runnable settingsButtonListener -> o
+    android.widget.ImageButton backButton -> f
+    java.lang.Runnable backButtonListener -> n
+    android.content.Context access$000(com.google.vr.cardboard.UiLayer) -> a
+    void access$1400(com.google.vr.cardboard.UiLayer,int) -> a
+    int access$400(boolean) -> a
+    boolean getAlignmentMarkerEnabled() -> a
+    void inflateViewsWithLayoutId(int) -> a
+    void scaleAlignmentMarkerLayoutParams(android.content.Context,float,android.widget.RelativeLayout$LayoutParams) -> a
+    void setAlignmentMarkerScale(float) -> a
+    void setBackButtonListener(java.lang.Runnable) -> a
+    void setViewerName(java.lang.String) -> a
+    java.lang.Runnable access$100(com.google.vr.cardboard.UiLayer) -> b
+    boolean getBackButtonEnabled() -> b
+    void setButtonClickCallbackOverride(java.lang.Runnable) -> b
+    void setEnabled(boolean) -> b
+    com.google.vr.cardboard.TransitionView access$1000(com.google.vr.cardboard.UiLayer) -> c
+    android.view.ViewGroup getView() -> c
+    void setSettingsButtonEnabled(boolean) -> c
+    void setSettingsButtonListener(java.lang.Runnable) -> c
+    android.widget.RelativeLayout access$1100(com.google.vr.cardboard.UiLayer) -> d
+    boolean isEnabled() -> d
+    void setTransitionViewEnabled(boolean) -> d
+    void setTransitionViewListener(java.lang.Runnable) -> d
+    com.google.vr.cardboard.TransitionView access$1200(com.google.vr.cardboard.UiLayer) -> e
+    int computeVisibility(boolean) -> e
+    boolean isTransitionViewVisible() -> e
+    int access$1300(com.google.vr.cardboard.UiLayer) -> f
+    com.google.vr.cardboard.TransitionView getTransitionView() -> f
+    java.lang.Runnable access$200(com.google.vr.cardboard.UiLayer) -> g
+    java.lang.Runnable access$300(com.google.vr.cardboard.UiLayer) -> h
+    android.widget.FrameLayout access$500(com.google.vr.cardboard.UiLayer) -> i
+    android.widget.ImageButton access$600(com.google.vr.cardboard.UiLayer) -> j
+    android.view.View access$700(com.google.vr.cardboard.UiLayer) -> k
+    android.widget.ImageButton access$800(com.google.vr.cardboard.UiLayer) -> l
+    android.view.View access$900(com.google.vr.cardboard.UiLayer) -> m
+com.google.vr.cardboard.UiLayer$1 -> com.google.vr.cardboard.P:
+    com.google.vr.cardboard.UiLayer this$0 -> a
+com.google.vr.cardboard.UiLayer$10 -> com.google.vr.cardboard.L:
+    float val$scale -> a
+    com.google.vr.cardboard.UiLayer this$0 -> b
+com.google.vr.cardboard.UiLayer$11 -> com.google.vr.cardboard.M:
+    com.google.vr.cardboard.UiLayer this$0 -> b
+    boolean val$enabled -> a
+com.google.vr.cardboard.UiLayer$12 -> com.google.vr.cardboard.N:
+    com.google.vr.cardboard.UiLayer this$0 -> b
+    java.lang.Runnable val$listener -> a
+com.google.vr.cardboard.UiLayer$13 -> com.google.vr.cardboard.O:
+    java.lang.String val$viewerName -> a
+    com.google.vr.cardboard.UiLayer this$0 -> b
+com.google.vr.cardboard.UiLayer$2 -> com.google.vr.cardboard.Q:
+    com.google.vr.cardboard.UiLayer this$0 -> a
+com.google.vr.cardboard.UiLayer$3 -> com.google.vr.cardboard.S:
+    com.google.vr.cardboard.UiLayer this$0 -> a
+com.google.vr.cardboard.UiLayer$4 -> com.google.vr.cardboard.T:
+    com.google.vr.cardboard.UiLayer this$0 -> a
+com.google.vr.cardboard.UiLayer$5 -> com.google.vr.cardboard.U:
+    com.google.vr.cardboard.UiLayer this$0 -> a
+com.google.vr.cardboard.UiLayer$6 -> com.google.vr.cardboard.V:
+    com.google.vr.cardboard.UiLayer this$0 -> b
+    boolean val$enabled -> a
+com.google.vr.cardboard.UiLayer$7 -> com.google.vr.cardboard.W:
+    com.google.vr.cardboard.UiLayer this$0 -> b
+    boolean val$enabled -> a
+com.google.vr.cardboard.UiLayer$8 -> com.google.vr.cardboard.X:
+    com.google.vr.cardboard.UiLayer this$0 -> b
+    java.lang.Runnable val$listener -> a
+com.google.vr.cardboard.UiLayer$RootOuterLayout -> com.google.vr.cardboard.Y$a:
+    android.content.res.Configuration currentConfig -> a
+    com.google.vr.cardboard.UiLayer this$0 -> b
+    void handlePotentialConfigurationChange(android.content.res.Configuration) -> a
+com.google.vr.cardboard.UiUtils -> com.google.vr.cardboard.da:
+    android.app.AlertDialog$Builder dialogBuilderForTesting -> b
+    com.google.vr.cardboard.StoragePermissionUtils permissionUtils -> a
+    void launchOrInstallCardboard(android.content.Context) -> a
+    android.app.AlertDialog showDaydreamHelpCenterDialog(android.content.Context,int,int,java.lang.Runnable) -> a
+    android.app.AlertDialog showImmersiveDialog(android.content.Context,android.app.AlertDialog) -> a
+    android.app.AlertDialog$Builder createAlertDialogBuilder(android.content.Context) -> b
+    void showInstallDialog(android.content.Context) -> c
+com.google.vr.cardboard.UiUtils$1 -> com.google.vr.cardboard.Z:
+    android.content.Context val$context -> a
+com.google.vr.cardboard.UiUtils$2 -> com.google.vr.cardboard.aa:
+com.google.vr.cardboard.UiUtils$3 -> com.google.vr.cardboard.ba:
+    java.lang.Runnable val$onCancelledCallback -> a
+com.google.vr.cardboard.UiUtils$4 -> com.google.vr.cardboard.ca:
+    android.content.Context val$context -> a
+com.google.vr.cardboard.VrContextWrapper -> com.google.vr.cardboard.ea:
+    boolean autoFadeEnabled() -> a
+    android.content.ComponentName getVrComponent() -> b
+com.google.vr.cardboard.VrCoreLibraryLoader -> com.google.vr.cardboard.VrCoreLibraryLoader:
+    void checkVrCoreGvrLibraryAvailable(android.content.Context,com.google.vr.ndk.base.Version) -> a
+com.google.vr.cardboard.VrParamsProvider -> com.google.vr.cardboard.fa:
+    com.google.vr.sdk.proto.nano.CardboardDevice$DeviceParams readDeviceParams() -> a
+    com.google.common.logging.nano.Vr$VREvent$SdkConfigurationParams readSdkConfigurationParams(com.google.vr.sdk.proto.nano.SdkConfiguration$SdkConfigurationRequest) -> a
+    boolean writeDeviceParams(com.google.vr.sdk.proto.nano.CardboardDevice$DeviceParams) -> a
+    com.google.vr.sdk.proto.nano.Display$DisplayParams readDisplayParams() -> b
+    com.google.vr.sdk.proto.nano.Preferences$UserPrefs readUserPrefs() -> c
+com.google.vr.cardboard.VrParamsProviderFactory -> com.google.vr.cardboard.ga:
+    com.google.vr.cardboard.VrParamsProvider providerForTesting -> a
+    com.google.vr.cardboard.VrParamsProvider create(android.content.Context) -> a
+    boolean isContentProviderAvailable(android.content.Context) -> b
+    com.google.vr.cardboard.VrParamsProviderFactory$ContentProviderClientHandle tryToGetContentProviderClientHandle(android.content.Context) -> c
+    java.util.List getValidContentProviderAuthorities(android.content.Context) -> d
+com.google.vr.cardboard.VrParamsProviderFactory$ContentProviderClientHandle -> com.google.vr.cardboard.ga$a:
+    android.content.ContentProviderClient client -> a
+    java.lang.String authority -> b
+com.google.vr.cardboard.VrParamsProviderJni -> com.google.vr.cardboard.VrParamsProviderJni:
+    void updateNativeDisplayParamsPointer(long,android.util.DisplayMetrics,float,int) -> a
+com.google.vr.cardboard.VrSettingsProviderContract -> com.google.vr.cardboard.ha:
+    android.net.Uri createUri(java.lang.String,java.lang.String) -> a
+com.google.vr.vrcore.base.api.BuildUtils -> com.google.vr.vrcore.base.api.a:
+    java.lang.Boolean isDebug -> a
+    boolean isDebugBuild(android.content.Context) -> a
+    boolean computeIsDebugBuild(android.content.Context) -> b
+com.google.vr.vrcore.base.api.ParcelableProto -> com.google.vr.vrcore.base.api.b:
+    byte[] data -> a
+    void clear() -> a
+    void readFromParcel(android.os.Parcel) -> a
+    void setData(byte[]) -> a
+    void setFromProto(com.google.protobuf.nano.MessageNano) -> a
+    byte[] getData() -> b
+    int getSizeBytes() -> c
+    boolean isEmpty() -> d
+    boolean shouldSerializeDataLength() -> e
+    boolean shouldSerializeEmptyInsteadOfNullBuffer() -> f
+com.google.vr.vrcore.base.api.SignatureUtils -> com.google.vr.vrcore.base.api.c:
+    android.content.pm.Signature KEYBOARD_RELEASE_SIGNATURE -> f
+    android.content.pm.Signature KEYBOARD_DEBUG_SIGNATURE -> e
+    android.content.pm.Signature ANDROID_DEBUG_SIGNATURE -> d
+    android.content.pm.Signature BLAZE_DEBUG_SIGNATURE -> c
+    android.content.pm.Signature VRCORE_DEBUG_SIGNATURE -> b
+    android.content.pm.Signature VRCORE_RELEASE_SIGNATURE -> a
+    android.content.pm.Signature signatureFromBase64(java.lang.String) -> a
+    boolean verifySignature(android.content.pm.PackageInfo,android.content.pm.Signature[]) -> a
+com.google.vr.vrcore.base.api.VrCoreNotAvailableException -> com.google.vr.vrcore.base.api.d:
+    int errorCode -> a
+com.google.vr.vrcore.base.api.VrCoreUtils -> com.google.vr.vrcore.base.api.VrCoreUtils:
+    int checkVrCoreAvailability(android.content.Context) -> a
+    java.lang.String getConnectionResultString(int) -> a
+    boolean isVrCorePackage(java.lang.String) -> a
+    java.lang.String getVrCoreSdkLibraryVersion(android.content.Context) -> b
+    int checkVrCoreAvailabilityImpl(android.content.Context) -> c
+    boolean verifyRemotePackageSignature(android.content.Context) -> d
+com.google.vr.vrcore.common.api.HeadTrackingState -> a.a.b.a.a.a.b:
+    boolean shouldSerializeDataLength() -> e
+    boolean shouldSerializeEmptyInsteadOfNullBuffer() -> f
+com.google.vr.vrcore.common.api.HeadTrackingState$1 -> a.a.b.a.a.a.a:
+com.google.vr.vrcore.common.api.IDaydreamListener -> a.a.b.a.a.a.c:
+com.google.vr.vrcore.common.api.IDaydreamListener$Stub -> a.a.b.a.a.a.c$a:
+com.google.vr.vrcore.common.api.IDaydreamManager -> a.a.b.a.a.a.d:
+    boolean deprecatedExitFromVr(android.app.PendingIntent) -> a
+    boolean exitFromVr2(android.os.Bundle) -> a
+    boolean launchInVr(android.app.PendingIntent,android.content.ComponentName) -> a
+    boolean launchVrTransition(com.google.vr.vrcore.common.api.ITransitionCallbacks) -> a
+    int prepareVr(android.content.ComponentName,com.google.vr.vrcore.common.api.HeadTrackingState) -> a
+    int prepareVr2(android.content.ComponentName,int,android.app.PendingIntent,com.google.vr.vrcore.common.api.HeadTrackingState) -> a
+    int prepareVr3(android.os.Bundle,com.google.vr.vrcore.common.api.HeadTrackingState) -> a
+    boolean registerListener(android.content.ComponentName,com.google.vr.vrcore.common.api.IDaydreamListener) -> a
+    boolean unregisterListener(android.content.ComponentName) -> a
+    void onExitingFromVr() -> d
+    boolean launchVrHome() -> h
+com.google.vr.vrcore.common.api.IDaydreamManager$Stub -> a.a.b.a.a.a.d$a:
+com.google.vr.vrcore.common.api.IDaydreamManager$Stub$Proxy -> a.a.b.a.a.a.d$a$a:
+    boolean deprecatedExitFromVr(android.app.PendingIntent) -> a
+    boolean exitFromVr2(android.os.Bundle) -> a
+    boolean launchInVr(android.app.PendingIntent,android.content.ComponentName) -> a
+    boolean launchVrTransition(com.google.vr.vrcore.common.api.ITransitionCallbacks) -> a
+    int prepareVr(android.content.ComponentName,com.google.vr.vrcore.common.api.HeadTrackingState) -> a
+    int prepareVr2(android.content.ComponentName,int,android.app.PendingIntent,com.google.vr.vrcore.common.api.HeadTrackingState) -> a
+    int prepareVr3(android.os.Bundle,com.google.vr.vrcore.common.api.HeadTrackingState) -> a
+    boolean registerListener(android.content.ComponentName,com.google.vr.vrcore.common.api.IDaydreamListener) -> a
+    boolean unregisterListener(android.content.ComponentName) -> a
+    void onExitingFromVr() -> d
+    boolean launchVrHome() -> h
+com.google.vr.vrcore.common.api.ITransitionCallbacks -> a.a.b.a.a.a.e:
+com.google.vr.vrcore.common.api.ITransitionCallbacks$Stub -> a.a.b.a.a.a.e$a:
+com.google.vr.vrcore.common.api.IVrCoreSdkService -> a.a.b.a.a.a.f:
+    boolean initialize(int) -> a
+    com.google.vr.vrcore.common.api.IDaydreamManager getDaydreamManager() -> b
+    com.google.vr.vrcore.logging.api.IVrCoreLoggingService getLoggingService() -> g
+com.google.vr.vrcore.common.api.IVrCoreSdkService$Stub -> a.a.b.a.a.a.f$a:
+com.google.vr.vrcore.common.api.IVrCoreSdkService$Stub$Proxy -> a.a.b.a.a.a.f$a$a:
+    boolean initialize(int) -> a
+    com.google.vr.vrcore.common.api.IDaydreamManager getDaydreamManager() -> b
+    com.google.vr.vrcore.logging.api.IVrCoreLoggingService getLoggingService() -> g
+com.google.vr.vrcore.controller.api.ControllerAccelEvent -> com.google.vr.vrcore.controller.api.b:
+    float z -> c
+    float y -> b
+    float x -> a
+    int getByteSize() -> a
+    void readFromParcel(android.os.Parcel) -> a
+com.google.vr.vrcore.controller.api.ControllerAccelEvent$1 -> com.google.vr.vrcore.controller.api.a:
+com.google.vr.vrcore.controller.api.ControllerBatteryEvent -> com.google.vr.vrcore.controller.api.d:
+    boolean charging -> b
+    int batteryLevelBucket -> a
+    int getByteSize() -> a
+    void readFromParcel(android.os.Parcel) -> a
+com.google.vr.vrcore.controller.api.ControllerBatteryEvent$1 -> com.google.vr.vrcore.controller.api.c:
+com.google.vr.vrcore.controller.api.ControllerButtonEvent -> com.google.vr.vrcore.controller.api.f:
+    int[] ALL_BUTTONS -> a
+    int button -> b
+    boolean down -> c
+    int getByteSize() -> a
+    void readFromParcel(android.os.Parcel) -> a
+com.google.vr.vrcore.controller.api.ControllerButtonEvent$1 -> com.google.vr.vrcore.controller.api.e:
+com.google.vr.vrcore.controller.api.ControllerEvent -> com.google.vr.vrcore.controller.api.g:
+    long timestampNanos -> a
+    int controllerId -> b
+    int getByteSize() -> a
+    void readFromParcel(android.os.Parcel) -> a
+com.google.vr.vrcore.controller.api.ControllerEventPacket -> com.google.vr.vrcore.controller.api.k:
+    com.google.vr.vrcore.controller.api.ControllerAccelEvent[] accelEvents -> d
+    com.google.vr.vrcore.controller.api.ControllerButtonEvent[] buttonEvents -> f
+    int touchEventCount -> k
+    com.google.vr.vrcore.controller.api.ControllerTouchEvent[] touchEvents -> l
+    int orientationEventCount -> i
+    com.google.vr.vrcore.controller.api.ControllerOrientationEvent[] orientationEvents -> j
+    java.lang.Object poolLock -> b
+    int gyroEventCount -> g
+    int buttonEventCount -> e
+    java.util.ArrayDeque pool -> a
+    int accelEventCount -> c
+    com.google.vr.vrcore.controller.api.ControllerGyroEvent[] gyroEvents -> h
+    int calculateParcelByteLength() -> a
+    void checkIsValidEventCount(int) -> a
+    void readFromParcel(android.os.Parcel) -> a
+    void setControllerIndex(int,int,com.google.vr.vrcore.controller.api.ControllerEvent[]) -> a
+    void clear() -> b
+    com.google.vr.vrcore.controller.api.ControllerAccelEvent getAccelEvent(int) -> b
+    int getAccelEventCount() -> c
+    com.google.vr.vrcore.controller.api.ControllerButtonEvent getButtonEvent(int) -> c
+    int getButtonEventCount() -> d
+    com.google.vr.vrcore.controller.api.ControllerGyroEvent getGyroEvent(int) -> d
+    int getGyroEventCount() -> e
+    com.google.vr.vrcore.controller.api.ControllerOrientationEvent getOrientationEvent(int) -> e
+    int getOrientationEventCount() -> f
+    com.google.vr.vrcore.controller.api.ControllerTouchEvent getTouchEvent(int) -> f
+    int getTouchEventCount() -> g
+    void setEventsControllerIndex(int) -> g
+    com.google.vr.vrcore.controller.api.ControllerEventPacket obtain() -> h
+    void recycle() -> i
+com.google.vr.vrcore.controller.api.ControllerEventPacket$1 -> com.google.vr.vrcore.controller.api.h:
+com.google.vr.vrcore.controller.api.ControllerEventPacket2 -> com.google.vr.vrcore.controller.api.j:
+    com.google.vr.vrcore.controller.api.ControllerBatteryEvent batteryEvent -> f
+    com.google.vr.vrcore.controller.api.ControllerTrackingStatusEvent[] trackingStatusEvents -> i
+    int trackingStatusEventCount -> h
+    long timestampMillis -> g
+    java.lang.Object poolLock -> b
+    boolean hasBatteryEvent -> e
+    com.google.vr.vrcore.controller.api.ControllerPositionEvent[] positionEvents -> d
+    java.util.ArrayDeque pool -> a
+    int positionEventCount -> c
+    int calculateParcelByteLength() -> a
+    void readFromParcel(android.os.Parcel) -> a
+    void clear() -> b
+    void setEventsControllerIndex(int) -> g
+    com.google.vr.vrcore.controller.api.ControllerPositionEvent getPositionEvent(int) -> h
+    com.google.vr.vrcore.controller.api.ControllerEventPacket2 obtain() -> h
+    com.google.vr.vrcore.controller.api.ControllerTrackingStatusEvent getTrackingStatusEvent(int) -> i
+    void recycle() -> i
+    com.google.vr.vrcore.controller.api.ControllerBatteryEvent getBatteryEvent() -> j
+    int getPositionEventCount() -> k
+    long getSystemTimeMillis() -> l
+    long getTimestampMillis() -> m
+    int getTrackingStatusEventCount() -> n
+    boolean hasBatteryEvent() -> o
+com.google.vr.vrcore.controller.api.ControllerEventPacket2$1 -> com.google.vr.vrcore.controller.api.i:
+com.google.vr.vrcore.controller.api.ControllerGyroEvent -> com.google.vr.vrcore.controller.api.m:
+    float z -> c
+    float y -> b
+    float x -> a
+    int getByteSize() -> a
+    void readFromParcel(android.os.Parcel) -> a
+com.google.vr.vrcore.controller.api.ControllerGyroEvent$1 -> com.google.vr.vrcore.controller.api.l:
+com.google.vr.vrcore.controller.api.ControllerInitResults -> com.google.vr.vrcore.controller.api.n:
+    java.lang.String toString(int) -> a
+com.google.vr.vrcore.controller.api.ControllerListenerOptions -> com.google.vr.vrcore.controller.api.p:
+    boolean enableGestures -> e
+    boolean enableOrientation -> a
+    boolean enableGyro -> b
+    boolean enableAccel -> c
+    boolean enableTouch -> d
+    void readFromParcel(android.os.Parcel) -> a
+com.google.vr.vrcore.controller.api.ControllerListenerOptions$1 -> com.google.vr.vrcore.controller.api.o:
+com.google.vr.vrcore.controller.api.ControllerOrientationEvent -> com.google.vr.vrcore.controller.api.r:
+    float qw -> d
+    float qz -> c
+    float qy -> b
+    float qx -> a
+    int getByteSize() -> a
+    void readFromParcel(android.os.Parcel) -> a
+com.google.vr.vrcore.controller.api.ControllerOrientationEvent$1 -> com.google.vr.vrcore.controller.api.q:
+com.google.vr.vrcore.controller.api.ControllerPositionEvent -> com.google.vr.vrcore.controller.api.t:
+    float z -> c
+    float y -> b
+    float x -> a
+    int getByteSize() -> a
+    void readFromParcel(android.os.Parcel) -> a
+com.google.vr.vrcore.controller.api.ControllerPositionEvent$1 -> com.google.vr.vrcore.controller.api.s:
+com.google.vr.vrcore.controller.api.ControllerRequest -> com.google.vr.vrcore.controller.api.v:
+com.google.vr.vrcore.controller.api.ControllerRequest$1 -> com.google.vr.vrcore.controller.api.u:
+com.google.vr.vrcore.controller.api.ControllerServiceBridge -> com.google.vr.vrcore.controller.api.ControllerServiceBridge:
+    android.content.Context context -> b
+    java.util.concurrent.atomic.AtomicInteger UNIQUE_INT -> a
+    android.os.Handler mainThreadHandler -> c
+    com.google.vr.vrcore.controller.api.ControllerServiceBridge$LocalControllerListener defaultListener -> i
+    boolean isBound -> j
+    com.google.vr.vrcore.controller.api.ControllerServiceBridge$ControllerServiceListener defaultServiceListener -> f
+    android.util.SparseArray controllerListenerMap -> g
+    int vrcoreApiVersion -> d
+    com.google.vr.vrcore.controller.api.IControllerService service -> h
+    java.lang.String listenerKey -> e
+    void access$000(com.google.vr.vrcore.controller.api.ControllerServiceBridge,int) -> a
+    void access$100(com.google.vr.vrcore.controller.api.ControllerEventPacket2) -> a
+    void bridge$lambda$0$ControllerServiceBridge() -> a
+    boolean createAndConnectControllerInternal(int,com.google.vr.vrcore.controller.api.ControllerServiceBridge$Callbacks,com.google.vr.vrcore.controller.api.ControllerListenerOptions) -> a
+    int getVrCoreApiVersion(android.content.Context) -> a
+    void handleServiceEvent(int) -> a
+    void initializeDefaultListener(com.google.vr.vrcore.controller.api.ControllerServiceBridge$Callbacks,com.google.vr.vrcore.controller.api.ControllerListenerOptions) -> a
+    void lambda$vibrateController$0$ControllerServiceBridge(int,com.google.vr.vrcore.controller.api.ControllerRequest) -> a
+    boolean registerListener(int,com.google.vr.vrcore.controller.api.ControllerServiceBridge$LocalControllerListener) -> a
+    void clearControllers() -> b
+    void logIfControllerPacketLags(com.google.vr.vrcore.controller.api.ControllerEventPacket2) -> b
+    void vibrateControllerInternal(int,com.google.vr.vrcore.controller.api.ControllerRequest) -> b
+    void doBind() -> c
+    void doUnbind() -> d
+    int getNumOfControllers() -> e
+    void unregisterListeners() -> f
+    java.lang.String createListenerKey() -> g
+    void ensureOnMainThread() -> h
+    void handleAvailableControllersChanged() -> i
+    void setupAndBindDefaultControllerListener() -> j
+com.google.vr.vrcore.controller.api.ControllerServiceBridge$$Lambda$0 -> com.google.vr.vrcore.controller.api.w:
+    com.google.vr.vrcore.controller.api.ControllerServiceBridge arg$1 -> a
+com.google.vr.vrcore.controller.api.ControllerServiceBridge$$Lambda$1 -> com.google.vr.vrcore.controller.api.x:
+    com.google.vr.vrcore.controller.api.ControllerServiceBridge arg$1 -> a
+com.google.vr.vrcore.controller.api.ControllerServiceBridge$$Lambda$2 -> com.google.vr.vrcore.controller.api.y:
+    int arg$2 -> b
+    com.google.vr.vrcore.controller.api.ControllerRequest arg$3 -> c
+    com.google.vr.vrcore.controller.api.ControllerServiceBridge arg$1 -> a
+com.google.vr.vrcore.controller.api.ControllerServiceBridge$$Lambda$3 -> com.google.vr.vrcore.controller.api.z:
+    com.google.vr.vrcore.controller.api.ControllerServiceBridge arg$1 -> a
+com.google.vr.vrcore.controller.api.ControllerServiceBridge$ControllerListener -> com.google.vr.vrcore.controller.api.ControllerServiceBridge$a:
+    java.lang.ref.WeakReference listener -> a
+    int getApiVersion() -> a
+    com.google.vr.vrcore.controller.api.ControllerListenerOptions getOptions() -> e
+com.google.vr.vrcore.controller.api.ControllerServiceBridge$ControllerServiceListener -> com.google.vr.vrcore.controller.api.ControllerServiceBridge$b:
+    java.lang.ref.WeakReference serviceBridge -> a
+    int getApiVersion() -> a
+    void onControllerServiceEvent(int) -> b
+com.google.vr.vrcore.controller.api.ControllerServiceBridge$LocalControllerListener -> com.google.vr.vrcore.controller.api.ControllerServiceBridge$c:
+    com.google.vr.vrcore.controller.api.ControllerServiceBridge$Callbacks callbacks -> a
+    com.google.vr.vrcore.controller.api.ControllerListenerOptions options -> b
+    int controllerIndex -> c
+com.google.vr.vrcore.controller.api.ControllerTouchEvent -> com.google.vr.vrcore.controller.api.B:
+    float y -> d
+    float x -> c
+    int action -> b
+    int fingerId -> a
+    int getByteSize() -> a
+    void readFromParcel(android.os.Parcel) -> a
+com.google.vr.vrcore.controller.api.ControllerTouchEvent$1 -> com.google.vr.vrcore.controller.api.A:
+com.google.vr.vrcore.controller.api.ControllerTrackingStatusEvent -> com.google.vr.vrcore.controller.api.D:
+    int trackingStatusFlags -> a
+    int getByteSize() -> a
+    void readFromParcel(android.os.Parcel) -> a
+com.google.vr.vrcore.controller.api.ControllerTrackingStatusEvent$1 -> com.google.vr.vrcore.controller.api.C:
+com.google.vr.vrcore.controller.api.IControllerListener -> com.google.vr.vrcore.controller.api.E:
+    int getApiVersion() -> a
+    com.google.vr.vrcore.controller.api.ControllerListenerOptions getOptions() -> e
+com.google.vr.vrcore.controller.api.IControllerListener$Stub -> com.google.vr.vrcore.controller.api.E$a:
+com.google.vr.vrcore.controller.api.IControllerService -> com.google.vr.vrcore.controller.api.F:
+    int initialize(int) -> a
+    boolean registerListener(int,java.lang.String,com.google.vr.vrcore.controller.api.IControllerListener) -> a
+    boolean registerServiceListener(com.google.vr.vrcore.controller.api.IControllerServiceListener) -> a
+    void request(int,com.google.vr.vrcore.controller.api.ControllerRequest) -> a
+    boolean unregisterListener(java.lang.String) -> a
+    boolean unregisterServiceListener(com.google.vr.vrcore.controller.api.IControllerServiceListener) -> b
+    int getNumberOfControllers() -> f
+com.google.vr.vrcore.controller.api.IControllerService$Stub -> com.google.vr.vrcore.controller.api.F$a:
+com.google.vr.vrcore.controller.api.IControllerService$Stub$Proxy -> com.google.vr.vrcore.controller.api.F$a$a:
+    int initialize(int) -> a
+    boolean registerListener(int,java.lang.String,com.google.vr.vrcore.controller.api.IControllerListener) -> a
+    boolean registerServiceListener(com.google.vr.vrcore.controller.api.IControllerServiceListener) -> a
+    void request(int,com.google.vr.vrcore.controller.api.ControllerRequest) -> a
+    boolean unregisterListener(java.lang.String) -> a
+    boolean unregisterServiceListener(com.google.vr.vrcore.controller.api.IControllerServiceListener) -> b
+    int getNumberOfControllers() -> f
+com.google.vr.vrcore.controller.api.IControllerServiceListener -> com.google.vr.vrcore.controller.api.G:
+    int getApiVersion() -> a
+    void onControllerServiceEvent(int) -> b
+com.google.vr.vrcore.controller.api.IControllerServiceListener$Stub -> com.google.vr.vrcore.controller.api.G$a:
+com.google.vr.vrcore.controller.api.NativeCallbacks -> com.google.vr.vrcore.controller.api.NativeCallbacks:
+    long userData -> a
+    boolean closed -> b
+    void handleEventsCompatibilityLocked(com.google.vr.vrcore.controller.api.ControllerEventPacket) -> a
+com.google.vr.vrcore.controller.api.nano.Proto$Request -> com.google.vr.vrcore.controller.api.a.a:
+    com.google.vr.vrcore.controller.api.nano.Proto$Request$Vibration vibration -> a
+com.google.vr.vrcore.controller.api.nano.Proto$Request$Vibration -> com.google.vr.vrcore.controller.api.a.a$a:
+    int durationMs_ -> d
+    int frequencyHz_ -> b
+    int volumePercentage_ -> c
+    int bitField0_ -> a
+    com.google.vr.vrcore.controller.api.nano.Proto$Request$Vibration setDurationMs(int) -> a
+    com.google.vr.vrcore.controller.api.nano.Proto$Request$Vibration setFrequencyHz(int) -> b
+    com.google.vr.vrcore.controller.api.nano.Proto$Request$Vibration setVolumePercentage(int) -> c
+com.google.vr.vrcore.library.api.IGvrLayout -> com.google.vr.vrcore.library.api.a:
+com.google.vr.vrcore.library.api.IGvrLayout$Stub -> com.google.vr.vrcore.library.api.a$a:
+com.google.vr.vrcore.library.api.IGvrLayout$Stub$Proxy -> com.google.vr.vrcore.library.api.a$a$a:
+com.google.vr.vrcore.library.api.IGvrUiLayout -> com.google.vr.vrcore.library.api.b:
+com.google.vr.vrcore.library.api.IGvrUiLayout$Stub -> com.google.vr.vrcore.library.api.b$a:
+com.google.vr.vrcore.library.api.IGvrUiLayout$Stub$Proxy -> com.google.vr.vrcore.library.api.b$a$a:
+com.google.vr.vrcore.library.api.IObjectWrapper -> com.google.vr.vrcore.library.api.c:
+com.google.vr.vrcore.library.api.IObjectWrapper$Stub -> com.google.vr.vrcore.library.api.c$a:
+com.google.vr.vrcore.library.api.IObjectWrapper$Stub$Proxy -> com.google.vr.vrcore.library.api.c$a$a:
+com.google.vr.vrcore.library.api.IVrCreator -> com.google.vr.vrcore.library.api.d:
+    com.google.vr.vrcore.library.api.IVrNativeLibraryLoader newNativeLibraryLoader(com.google.vr.vrcore.library.api.IObjectWrapper,com.google.vr.vrcore.library.api.IObjectWrapper) -> a
+    com.google.vr.vrcore.library.api.IGvrLayout newGvrLayout(com.google.vr.vrcore.library.api.IObjectWrapper,com.google.vr.vrcore.library.api.IObjectWrapper) -> b
+com.google.vr.vrcore.library.api.IVrCreator$Stub -> com.google.vr.vrcore.library.api.d$a:
+com.google.vr.vrcore.library.api.IVrCreator$Stub$Proxy -> com.google.vr.vrcore.library.api.d$a$a:
+    com.google.vr.vrcore.library.api.IVrNativeLibraryLoader newNativeLibraryLoader(com.google.vr.vrcore.library.api.IObjectWrapper,com.google.vr.vrcore.library.api.IObjectWrapper) -> a
+    com.google.vr.vrcore.library.api.IGvrLayout newGvrLayout(com.google.vr.vrcore.library.api.IObjectWrapper,com.google.vr.vrcore.library.api.IObjectWrapper) -> b
+com.google.vr.vrcore.library.api.IVrNativeLibraryLoader -> com.google.vr.vrcore.library.api.e:
+    long loadNativeGvrLibrary(int,int,int) -> a
+    long loadNativeGvrLibraryWithMinVersion(java.lang.String,java.lang.String) -> a
+    long loadNativeDlsymMethod() -> c
+com.google.vr.vrcore.library.api.IVrNativeLibraryLoader$Stub -> com.google.vr.vrcore.library.api.e$a:
+com.google.vr.vrcore.library.api.IVrNativeLibraryLoader$Stub$Proxy -> com.google.vr.vrcore.library.api.e$a$a:
+    long loadNativeGvrLibrary(int,int,int) -> a
+    long loadNativeGvrLibraryWithMinVersion(java.lang.String,java.lang.String) -> a
+    long loadNativeDlsymMethod() -> c
+com.google.vr.vrcore.library.api.ObjectWrapper -> com.google.vr.vrcore.library.api.ObjectWrapper:
+    java.lang.Object unwrap(com.google.vr.vrcore.library.api.IObjectWrapper,java.lang.Class) -> a
+    com.google.vr.vrcore.library.api.IObjectWrapper wrap(java.lang.Object) -> a
+com.google.vr.vrcore.library.api.VrCoreLoader -> com.google.vr.vrcore.library.api.f:
+    android.content.Context sRemoteContext -> a
+    com.google.vr.vrcore.library.api.IVrCreator sCreator -> c
+    int sRemoteContextApiVersion -> b
+    android.content.Context getRemoteContext(android.content.Context) -> a
+    android.os.IBinder newBinderInstance(java.lang.ClassLoader,java.lang.String) -> a
+    int getRemoteContextClientApiVersion(android.content.Context) -> b
+    com.google.vr.vrcore.library.api.IVrCreator getRemoteCreator(android.content.Context) -> c
+com.google.vr.vrcore.logging.api.IVrCoreLoggingService -> a.a.b.a.b.a.a:
+    void log(com.google.vr.vrcore.logging.api.VREventParcelable) -> a
+com.google.vr.vrcore.logging.api.IVrCoreLoggingService$Stub -> a.a.b.a.b.a.a$a:
+com.google.vr.vrcore.logging.api.IVrCoreLoggingService$Stub$Proxy -> a.a.b.a.b.a.a$a$a:
+    void log(com.google.vr.vrcore.logging.api.VREventParcelable) -> a
+com.google.vr.vrcore.logging.api.VREventParcelable -> a.a.b.a.b.a.c:
+    com.google.common.logging.nano.Vr$VREvent event -> b
+    int eventCode -> a
+com.google.vr.vrcore.logging.api.VREventParcelable$1 -> a.a.b.a.b.a.b:
