@@ -1,32 +1,41 @@
-# Gazi Üniversitesi - Bilgisayar Bilimleri Yüksek Lisans Sanal Gerçeklik Vize ve Final Projesi
+# Gazi Üniversitesi - Bilgisayar Bilimleri Yüksek Lisans Sanal Gerçeklik Final Projesi
 # NUR DESTEGÜL - 208010799
 
-EscapeMuseumVR 
+EscapeMuseumFinal
 -------------------------------------------------------------------------------
-Müzeden Kaçış oyunu bir müze ve içindeki tablolardaki ipuçlarını kullanarak sorulan sorulara doğru cevap verilmesi halinde müzeden kaçmayı amaçlar.
+Müzeden Kaçış oyunu bir müze ve içindeki tablolardaki ipuçlarını kullanarak sorulan sorulara doğru cevap verilmesi halinde müzeden kaçmayı amaçlar. Toplam 5 sahnede 5 soru vardır. Her sahnede duvardaki tablolar, tablo seslendirmeleri değişmektedir. Ayrıca, bir sahneden diğer sahneye geçerken ışık azaltılır ve yeni sahneye geçme efekti verilir. 5.sorunun sonunda müze kapısı açılır ve oyuncu dışarı çıkabilir. Arzu edilirse "Tekrar Oyna" tuşuna basılarak baştan oynanabilir.
 
-# Oynama
-- W,A,S,D ile hareket edilip mouse'un sol tuşuyla seçme işlemi yapılabilir.
-- Tabloların önündeki toplara basıldığında Player oraya gelir ve tablonun açıklaması okunur.
-- Sorulan soruya yanlış cevap verilirse şık kırmızıya, doğru yanıt verilirse yeşile boyanır.
-- Doğru cevaptan sonra bir sonraki sahneye geçilir. Oyun toplam 5 sahneden/ sorudan oluşur.
-- Her sahnede farklı tablolar vardır. Son soru doğru cevaplandıktan sonra müzenin kapısı tekrar açılır.
+Not: Oyunu oynamak için Google Cardboard gibi Sanal Gerçeklik gözlüğüne ihtiyacınız vardır. Gözlük olmadan telefona kurarsanız, ellerinizle seçim yaparak da oynayabilirsiniz.
+
+- Unity Versiyon: 2019.1.12f1
+- GoogleVR SDK Versiyon: 1.60.0
+- MacOs işletim sisteminde geliştirildi.
+- Default ayarlar Android için ayarlandı. (Diğer platformlar için kaynak kod Unity ile açılıp, Target Platform değiştirilip tekrar Build edilmeli.)
+- Android Min 4.4. sürümüne ihtiyaç duyar.
+
+# Oyunun Kurulumu (Android)
+- EscapeMuseum-Android.apk dosyası telefona indirilir.
+- Android telefonumuzun uygulama çalıştırma ayarlarından tanınmamış uygulamaları çalıştırmaya izin verilir.
+- Uygulamayı kurmak için APK dosyası tıklanır. Telefonumuz bize birkaç güvenlik sorusu soracaktır bunları kabul ettikten sonra oyunumuzu oynayabiliriz :)
+
+# Oyun Dosyası ve Örnek Videosu
+- Oyun dosyasına(EscapeMuseum-Android.apk) ve örnek videosuna [şuradan](https://drive.google.com/drive/folders/1TiLPgEQzBXiPgthUzlAeLMgSqUe5X5PP?usp=sharing) ulaşabilirsiniz.
 
 # Ekran Çıktıları
-![screenshot1](screenshots/sample_start.png)
+![screenshot1](screenshots/1.png)
 
-![screenshot2](screenshots/sample_start_2.png)
+![screenshot2](screenshots/2.png)
 
-![screenshot3](screenshots/sample_1.png)
+![screenshot3](screenshots/3.png)
 
-![screenshot4](screenshots/sample_2.png)
+![screenshot4](screenshots/4.png)
 
-![screenshot5](screenshots/sample_3.png)
+![screenshot5](screenshots/5.png)
 
-![screenshot6](screenshots/sample_4.png)
+![screenshot6](screenshots/kazandiniz.png)
 
 # Referanslar
 - Tablo açıklamalarını okutmak için https://soundoftext.com/ kullanıldı.
 - Proje içindeki müze yapısı, tablolar ve imajlar internet kaynaklarından sağlandı.
-- VR componentleri eklenmesine rağmen henüz test edilmediği için farklı bir kamera [eklendi](https://gist.github.com/gunderson/d7f096bd07874f31671306318019d996) . Bu kamera bize W,A,S,D harfleriyle hareket etmemizi sağlıyor.
 - Script kullanımlarına [Unity](https://docs.unity3d.com/ScriptReference/) den bakıldı. Örnek kullanımlar için birçok YouTube ve diğer kaynaklardan yardım alındı.
+- GoogleVR Cardboard eklenmesi için Youtube'dan bir çok video izlendi.
